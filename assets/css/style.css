@@ -114,15 +114,15 @@ html {
 }
 
 .bg_img_1 {
-  background-image: url(/assets/img/bg-images/home/hero-section/bg_img_1.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/home/hero-section/bg_img_1.webp);
 }
 
 .bg_img_2 {
-  background-image: url(/assets/img/bg-images/home/hero-section/bg_img_2.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/home/hero-section/bg_img_2.webp);
 }
 
 .bg_img_3 {
-  background-image: url(/assets/img/bg-images/home/hero-section/bg_img_3.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/home/hero-section/bg_img_3.webp);
 }
 
 
@@ -665,18 +665,18 @@ html {
 }
 
 .bg_img1 {
-  background-image: url(/assets/img/bg-images/About/solar_bg_image.jpg);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/About/solar_bg_image.jpg);
 }
 
 .bg_img2 {
-  background-image: url(/assets/img/bg-images/ContactUs/Contact_bacground.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/ContactUs/Contact_bacground.webp);
 }
 
 .bg_img3 {
-  background-image: url(/assets/img/bg-images/Our_story/Our_Story.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/Our_story/Our_Story.webp);
 }
 .bg_img4{
-  background-image: url(/assets/img/bg-images/Services/services.webp);
+  background-image: url(/bhagirath-brel-webapp/assets/img/bg-images/Services/services.webp);
 }
 .hero_img {
   background-position: 50%;

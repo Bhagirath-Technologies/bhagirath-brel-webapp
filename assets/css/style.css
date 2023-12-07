@@ -679,6 +679,10 @@ html {
 .bg_img4{
   background-image: url('../img/bg-images/Services/services.webp');
 }
+
+.bg_img5{
+  background-image: url('../img/bg-images/SolarCalculator/Solar_Calculater.webp');
+}
 .hero_img {
   background-position: 50%;
   background-repeat: no-repeat;

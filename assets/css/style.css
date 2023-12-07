@@ -1061,3 +1061,40 @@ html {
   margin-bottom: 10px;
 
 }
+.value-boxes{
+  padding-left: 46px;
+ 
+}
+.coloun-wrap{
+  font-size: 12px;
+  font-weight: 200;
+}
+
+
+.heading_part h3{
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+  
+}
+.image-wrap img{
+   width: 65%;
+   height: 163px;
+}
+
+#pv-solar-panel h4{
+  font-size: 25px;
+  margin-top: 12px;
+}
+#pv-solar-panel img{
+  width: 65%;
+  height: 163px;
+  margin-top: 22%;
+}
+#pv-solar-panel p{
+ font-size: 15px;
+ line-height: 22px;
+ line-break: anywhere;
+ text-overflow: initial;
+
+}

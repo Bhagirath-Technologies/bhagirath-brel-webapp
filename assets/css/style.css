@@ -684,6 +684,10 @@ html {
 .bg_img5{
   background-image: url('../img/bg-images/SolarCalculator/Solar_Calculater.webp');
 }
+
+.bg_img6{
+  background-image: url('../img/bg-images/About/solar-winds.webp');
+}
 .hero_img {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -1066,39 +1070,7 @@ html {
   padding-left: 46px;
  
 }
-.coloun-wrap{
-  font-size: 12px;
-  font-weight: 200;
-}
 
-
-.heading_part h3{
-  font-size: 12px;
-  font-weight: 200;
-  text-align: center;
-  
-}
-.image-wrap img{
-   width: 65%;
-   height: 163px;
-}
-
-#pv-solar-panel h4{
-  font-size: 25px;
-  margin-top: 12px;
-}
-#pv-solar-panel img{
-  width: 65%;
-  height: 163px;
-  margin-top: 22%;
-}
-#pv-solar-panel p{
- font-size: 15px;
- line-height: 22px;
- line-break: anywhere;
- text-overflow: initial;
-
-}
 .image{
   position: relative;
 }
@@ -1139,4 +1111,75 @@ transform: 0.25;
 .img-description{
   font-size: 1.25em;
   margin-top: 0.2em;
+}
+
+.hero_img1:before {
+  background: rgba(0, 0, 0, 0.6);
+  content: " ";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.hero_img1 {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  position: relative;
+  z-index: 1;
+}
+.heading-solar {
+  color: var(--white-color);
+  text-align: center;
+  position: relative;
+  top: 35%;
+  font-size: 40px;
+  flex-direction: column;
+  line-break: auto;
+  text-overflow: inherit;
+}
+.heading-solar h2{
+  font-size: 33px;
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+.heading-solar p{
+  font-size: 20px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .heading-solar {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+.card-box{
+  position: relative;
+  top: -42px;
+   z-index: 1;
+   
+}
+.card-bg-color{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+@media Only screen and(max-width:766px){
+  .card-box{
+    position: relative;
+     
+  }
+}
+.element-icon i{
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    margin: auto;
+    font-size: 42px;
 }

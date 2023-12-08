@@ -1098,3 +1098,44 @@ html {
  text-overflow: initial;
 
 }
+.image{
+  position: relative;
+}
+.images-img{
+  display: block;
+  width: 100%;
+}
+.images-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.images-overlay:hover{
+  opacity: 1;
+}
+.images-overlay > *{
+transform: translateY(20px);
+transform: 0.25;
+}
+.images-overlay:hover > *{
+  transform: translateY(0);
+  transform: 0.25;
+  }
+.images-title{
+  font-size: 2em;
+  font-weight: bold;
+}
+.img-description{
+  font-size: 1.25em;
+  margin-top: 0.2em;
+}

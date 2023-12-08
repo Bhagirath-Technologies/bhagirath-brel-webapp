@@ -1140,26 +1140,3 @@ transform: 0.25;
   font-size: 1.25em;
   margin-top: 0.2em;
 }
-@keyframes scroll{
-  0%{
-    transform:  translateX();
-  }
-  100%{
-    transform: translateX(calc(-250px *7));
-  }
-}
-.slider{
-  height: 100px;
-  position: relative;
-  max-width: 58%;
-
-}
-.slider .slider-track{
-  animation: scroll 49s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-.slider .slide{
-  height: 100px;
-  width: 250px;
-}

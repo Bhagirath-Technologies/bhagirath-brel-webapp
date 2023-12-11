@@ -699,6 +699,9 @@ html {
 .bg_img6{
   background-image: url('../img/bg-images/About/solar-winds.webp');
 }
+.bg_img7{
+  background-image: url('../img/bg-images/About/solar-winds.webp');
+}
 .hero_img {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -985,9 +988,6 @@ html {
   z-index: 1;
 }
 
-.services .service-item:before {
-}
-
 .services .service-item img {
   color: black;
   font-size: 24px;
@@ -1020,28 +1020,6 @@ html {
   font-size: 15px;
   line-height: 4px;
 }
-.renable_text {
-  font-size: 27px;
-  font-weight: 700;
-}
-.icons-section {
-  position: relative;
-  left: -30px;
-  top: 30px;
-  font-size: 20px;
-  color: var(--main-color);
-}
-
-.section_side {
-  margin: auto;
-}
-
-@media only screen and (max-width: 700px) {
-  .section_side {
-    margin-left: 23px;
-  }
-}
-
 
 .carousel_control{
   background: transparent;
@@ -1142,6 +1120,24 @@ transform: 0.25;
   position: relative;
   z-index: 1;
 }
+.hero_img2 {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  position: relative;
+  z-index: 1;
+}
+.hero_img2:before {
+  background: rgba(0, 0, 0, 0.6);
+  content: " ";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
 .heading-solar {
   color: var(--white-color);
   text-align: center;
@@ -1170,11 +1166,42 @@ transform: 0.25;
     text-align: center;
   }
 }
-.card-box{
+.choose-heading{
+  color: var(--white-color);
+  text-align: center;
   position: relative;
-  top: -42px;
+  top: 15%;
+  font-size: 40px;
+  flex-direction: column;
+  line-break: auto;
+  text-overflow: inherit;
+}
+.choose-heading h2{
+  font-size: 43px;
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+.choose-heading p{
+  font-size: 20px;
+  word-spacing: 2px;
+  width: 80%;
+  letter-spacing: 2px;
+  margin: auto;
+}
+.card-element{
+  position: relative;
+  top: -28vw;
    z-index: 1;
    
+}
+
+@media only screen and (max-width:500px){
+  .card-element{
+    position: relative;
+     z-index: 1;
+     
+  }
 }
 .card-bg-color{
   background-color: var(--main-color);
@@ -1194,6 +1221,8 @@ transform: 0.25;
     margin: auto;
     font-size: 42px;
 }
+
+
 .our-section{
   display: block;
   position: relative;

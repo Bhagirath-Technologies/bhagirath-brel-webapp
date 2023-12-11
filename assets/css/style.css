@@ -1169,12 +1169,17 @@ transform: 0.25;
   position: relative;
   top: -123px;
 }
+@media only screen and (max-width:500px){
+  .card-box1{
+    position: relative;
+    top: -73px;
+  }
+}
 
 @media only screen and (max-width:500px){
   .card-element1{
     position: relative;
      z-index: 1;
-     
   }
 }
 .card-bg-color{

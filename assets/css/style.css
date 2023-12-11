@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -1182,4 +1183,35 @@ transform: 0.25;
     display: block;
     margin: auto;
     font-size: 42px;
+}
+.our-section{
+  display: block;
+  position: relative;
+  text-align: initial;
+  overflow: auto;
+}
+
+.our-section .our-title h4{
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+}
+.our-paragraph{
+  margin-top:23px;
+}
+.our-section .our-paragraph{
+  font-size: 15px;
+  text-overflow: inherit;
+  text-rendering: optimizeSpeed;
+} 
+ 
+.our-Provider-service {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.service-list li{
+ list-style-type: none;
+ line-height: 30px;
 }

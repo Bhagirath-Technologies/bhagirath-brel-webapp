@@ -754,37 +754,7 @@ html {
   overflow: hidden;
 }
 
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
 
-.team .member .social a {
-  transition: color 0.3s;
-  color: #222222;
-  margin: 0 3px;
-  padding-top: 7px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: var(--main-color);
-  display: inline-block;
-  transition: ease-in-out 0.3s;
-  color: var(--white-color);
-}
-
-.team .member .social a:hover {
-  background: var(--main-color);
-}
-
-.team .member .social i {
-  font-size: 18px;
-}
 
 .team .member .member-info {
   padding: 25px 15px;
@@ -1189,15 +1159,19 @@ transform: 0.25;
   letter-spacing: 2px;
   margin: auto;
 }
-.card-element{
+.card-element1{
   position: relative;
   top: -28vw;
    z-index: 1;
    
 }
+.card-box1{
+  position: relative;
+  top: -123px;
+}
 
 @media only screen and (max-width:500px){
-  .card-element{
+  .card-element1{
     position: relative;
      z-index: 1;
      
@@ -1207,12 +1181,7 @@ transform: 0.25;
   background-color: var(--main-color);
   color: var(--white-color);
 }
-@media Only screen and(max-width:766px){
-  .card-box{
-    position: relative;
-     
-  }
-}
+
 .element-icon i{
     width: 1em;
     height: 1em;

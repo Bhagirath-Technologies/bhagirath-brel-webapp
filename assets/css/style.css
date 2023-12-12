@@ -1234,3 +1234,9 @@ transform: 0.25;
   top: -103px;
 }
 
+@media only screen and (max-width:1080px) {
+  .breadcrumb-style{
+    position: relative;
+    top:23px
+  }
+}

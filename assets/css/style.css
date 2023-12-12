@@ -1229,3 +1229,8 @@ transform: 0.25;
  line-height: 30px;
 }
 
+.paragraph-section{
+  position: relative;
+  top: -103px;
+}
+

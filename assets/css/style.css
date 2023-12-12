@@ -1243,6 +1243,6 @@ transform: 0.25;
 @media only screen and (max-width:712px) {
   .paragraph-section{
     position: relative;
-    top:10px
+    top:5px
   }
 }

@@ -1231,7 +1231,8 @@ transform: 0.25;
 
 .paragraph-section{
   position: relative;
-  top: -79px;
+  top:  79px;
+  text-align: justify;
 }
 
 @media only screen and (max-width:1080px) {
@@ -1289,4 +1290,8 @@ transition: 0.5s;
   opacity: 1;
   backface-visibility: visible;
   left: 60px;
+}
+.my-video{
+width: 90%;
+box-shadow: 12px 12px 12px 2px black;
 }

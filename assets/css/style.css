@@ -814,129 +814,54 @@ html {
   margin-bottom: 0;
 }
 
-.services .icon-box {
+.item{
+  background-color: #fff;
   text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: var(--white-color);
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.item:hover{
+  background-color:var(--main-color);
+  -webkit-transition: all 0.5s ease 0s;
+}
+.item:hover .heading-service,
+.item:hover .paragraph-service{
+  color: #fff;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
-.services .icon-box .icon {
-  margin: 0 auto;
+
+.item:hover .item,
+.item:hover span.icon_service{
+  background-color: #fff;
+  border-radius: 50x;
+  height: 50px;
+  width: 50px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.icon_service{
+  font-size: 40px;
+  margin-bottom: 25px;
+  color:var(--main-color);
   width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
+  height: 90px;
+  line-height: 96px;
+  border-radius: 50px;
 }
 
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
+.paragraph-service {
+  font-size: 15px;
+  line-height: 26px;
 }
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: var(--white-color);
-}
-
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-
-.services .icon-box h4 a {
-  color: #222222;
-  transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services .iconbox-blue i {
-  color: var(--main-color);
-}
-
-.services .iconbox-blue:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-blue:hover .icon path {
-  fill: var(--main-color);
-}
-
-.services .iconbox-orange i {
-  color: var(--main-color);
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: var(--main-color);
-}
-
-.services .iconbox-pink i {
-  color: var(--main-color);
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: var(--main-color);
-}
-
-.services .iconbox-yellow i {
-  color: var(--main-color);
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: var(--main-color);
-}
-
-.services .iconbox-red i {
-  color: var(--main-color);
-}
-
-.services .iconbox-red:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #29516a;
-}
-
-.services .iconbox-teal i {
-  color: var(--main-color);
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: var(--white-color);
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: var(--main-color);
+.heading-service{
+  margin-bottom: 20px;
+  color:black
 }
 
 .bg_background {
@@ -1275,10 +1200,50 @@ transition: 0.5s;
 .video-container {
   max-width: 800px;
   margin: 50px auto;
-  box-shadow: 10px 12px 10px rgba(0, 0, 0, 10);
-}
+  }
 
 video {
   width: 100%;
   display: block;
+}
+.consulting-image
+{
+  display:block;
+  align-items: center;
+  justify-content: center;
+}
+
+.consulting-registration{
+  border: 1px solid #8a8a8a;
+  box-shadow: 0px 0px 5px #646464;
+  padding: 20px;
+  border-radius: 15px;
+}
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.btn-close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+.ptnplay{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: -150px;
+   margin-left: 180px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-video-shadow{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }

@@ -1197,27 +1197,7 @@ transform: 0.25;
 }
 
 
-.our-section{
-  display: block;
-  position: relative;
-  text-align: initial;
-  overflow: auto;
-}
 
-.our-section .our-title h4{
-  font-size: 28px;
-  font-weight: 600;
-  font-stretch: normal;
-}
-.our-paragraph{
-  margin-top:23px;
-}
-.our-section .our-paragraph{
-  font-size: 15px;
-  text-overflow: inherit;
-  text-rendering: optimizeSpeed;
-} 
- 
 .our-Provider-service {
   font-size: 25px;
   font-weight: 500;
@@ -1291,7 +1271,14 @@ transition: 0.5s;
   backface-visibility: visible;
   left: 60px;
 }
-.my-video{
-width: 90%;
-box-shadow: 12px 12px 12px 2px black;
+
+.video-container {
+  max-width: 800px;
+  margin: 50px auto;
+  box-shadow: 10px 12px 10px rgba(0, 0, 0, 10);
+}
+
+video {
+  width: 100%;
+  display: block;
 }

@@ -199,7 +199,7 @@ html {
 }
 
 .bg_img_1 {
-  background-image:  url('../img/bg-images/home/hero-section/bg_img_1.webp');
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/bg-images/home/hero-section/bg_img_1.webp');
 }
 .bg_img_1:before{
   content: "";
@@ -208,14 +208,13 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.06);
 }
 .bg_img_2 {
-  background-image: url('../img/bg-images/home/hero-section/bg_img_2.webp');
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/bg-images/home/hero-section/bg_img_2.webp');
 }
 
 .bg_img_3 {
-  background-image: url('../img/bg-images/home/hero-section/bg_img_3.webp');
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../img/bg-images/home/hero-section/bg_img_3.webp');
 }
 
 
@@ -224,7 +223,6 @@ html {
 } */
 
 #carousel_title {
-  background-color: rgba(0, 0, 0, 0.3);
   bottom: 38%;
   color: var(--white-color);
   font-size: 22px;
@@ -1087,7 +1085,7 @@ transform: 0.25;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 98vh;
   position: relative;
   z-index: 1;
 }
@@ -1148,8 +1146,9 @@ transform: 0.25;
 }
 .card-element1{
   position: relative;
-  top: -28vw;
+  top: -20vw;
    z-index: 1;
+   color: var(--main-color);
    
 }
 .card-box1{
@@ -1159,7 +1158,7 @@ transform: 0.25;
 
 .card-bg-color{
   background-color: var(--main-color);
-  color: var(--white-color);
+  color: var(--main-color);
 }
 
 .element-icon i{
@@ -1169,6 +1168,7 @@ transform: 0.25;
     display: block;
     margin: auto;
     font-size: 42px;
+    color: var(--main-color);
 }
 
 

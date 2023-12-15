@@ -1178,10 +1178,6 @@ transform: 0.25;
   top: -123px;
 }
 
-.card-bg-color{
-  background-color: var(--main-color);
-  color: var(--main-color);
-}
 
 .element-icon i{
     width: 1em;

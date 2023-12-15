@@ -1,3 +1,4 @@
+
 let calcScrollValue = () => {
   let ScrollProgress = document.getElementById("progress");
   let ProgressValue = document.getElementById("progress-value")

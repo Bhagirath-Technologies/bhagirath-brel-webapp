@@ -12,6 +12,8 @@ html {
 }
 
 
+
+
 :root {
   --main-color: #29516a;
   --white-color: #fff;
@@ -596,10 +598,15 @@ html {
   margin-top: 8px;
 }
 #footer {
-  background: var(--main-color);
+ 
   padding: 0 0 30px 0;
-  color: var(--white-color);
+  color: black;
   font-size: 14px;
+  background-image: linear-gradient(rgba(221, 203, 203, 0.938),rgba(0,0,0,0)),url('../img/bg-images/home/hero-section/footer-image.jpg');
+  background-position: 100%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 #footer .footer-top {
@@ -609,8 +616,8 @@ html {
 #footer .footer-top .footer-info {
   margin-top: -90px;
   margin-bottom: 15px;
-  background: var(--white-color);
-  color: var(--main-color);
+  /* background: var(--white-color); */
+  color: black;
   border-top: 4px solid var(--DryGrass-color);
   text-align: center;
   padding: 30px 20px;
@@ -635,7 +642,7 @@ html {
   font-size: 18px;
   display: inline-block;
   background: #2f4d5a;
-  color: var(--white-color);
+  color:white;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -647,15 +654,15 @@ html {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: var(--DryGrass-color);
-  color: var(--white-color);
+  /* background: var(--DryGrass-color); */
+  color:var(--DryGrass-color);
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: var(--white-color);
+  color: black;
   position: relative;
   padding-bottom: 12px;
 }
@@ -688,7 +695,7 @@ html {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: var(--white-color);
+  color: black;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -700,7 +707,7 @@ html {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: var(--white-color);
+  /* background: var(--white-color); */
   padding: 6px 10px;
   position: relative;
   border-radius: 4;
@@ -722,7 +729,7 @@ html {
   font-size: 16px;
   padding: 0 20px;
   background: var(--main-color);
-  color: var(--white-color);
+  color: black;
   transition: 0.3s;
   border-radius: 0px;
   border: 0.5px solid var(--white-color);
@@ -742,7 +749,7 @@ html {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: var(--white-color);
+  color: black
 }
 
 .back-to-top {
@@ -799,6 +806,9 @@ html {
 }
 .bg_img7{
   background-image: url('../img/bg-images/About/solar-winds.webp');
+}
+.bg_img8{
+  background-image: url('../img/bg-images/enquiry/Consultation-img.webp ');
 }
 .hero_img {
   background-position: 50%;
@@ -1189,8 +1199,10 @@ transform: 0.25;
     color: var(--main-color);
 }
 
-
-
+.card-bg-color{
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
 .our-Provider-service {
   font-size: 25px;
   font-weight: 500;
@@ -1359,3 +1371,142 @@ video {
   line-clamp: calc(10%,30%);
 }
 
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  /* margin-left: -5px; */
+}
+
+.form-inner .form-row {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.form-inner .form-row>div {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.form-row>.col, .form-row>[class*=col-] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.form-inner .form-row .form-group {
+  position: relative;
+  margin-bottom: 45px;
+}
+@media only screen and (max-width: 767px)
+{
+.form-inner .form-row input[type=email], .form-inner .form-row input[type=number], .form-inner .form-row input[type=text], .form-inner .form-row textarea {
+    height: 50px;
+    padding-left: 50px;
+}
+}
+
+@media only screen and (max-width: 1600px)
+{
+.form-inner .form-row input[type=email], .form-inner .form-row input[type=number], .form-inner .form-row input[type=text], .form-inner .form-row textarea {
+    padding-left: 55px;
+}
+}
+.form-inner .form-row input[type=email], .form-inner .form-row input[type=number], .form-inner .form-row input[type=text], .form-inner .form-row textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px 30px 10px 60px;
+  background-color: #fff;
+  box-shadow: none;
+  border: 1px solid #000;
+}
+.form-row .form-group .icon-wrap {
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 24px;
+  left: 24px;
+}
+
+
+
+@media only screen and (max-width: 767px)
+{
+  
+.form-row .form-group .icon-wrap {
+    font-size: 18px;
+}
+}
+@media only screen and (max-width: 1600px)
+{
+.form-row .form-group .icon-wrap {
+    font-size: 20px;
+    left: 20px;
+}
+}
+
+.form-inner-col .custom-dropdown-wrapper {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 575px)
+{
+.custom-dropdown-wrapper {
+    margin-bottom: 20px;
+}
+}
+
+.custom-dropdown-wrapper {
+  position: relative;
+}
+
+.custom-dropdown-wrapper select {
+  background-color: initial;
+  color: #000;
+}
+.custom-dropdown-wrapper select {
+  padding: 14px 30px;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #000;
+  -webkit-appearance: none;
+  appearance: none;
+}
+form .submit-group {
+  position: relative;
+  display: inline-block;
+}
+
+.button-style{
+  padding: 12px;
+  height: 50px;
+  width: 163px;
+  font-size: 17px;
+  background-color: var(--main-color);
+  color: white;
+  border-style: none;
+
+}
+.button-style:hover{
+ background-color: var(--DryGrass-color);
+}
+@media only screen and (max-width: 767px)
+{
+  
+.form-inner .btn-wrap, .recaptcha-col {
+    margin-top: 25px;
+}
+}
+.title-text h4{
+  display: block;
+  font-weight: 900;
+  font-size: 42px;
+   margin-bottom: 22px;
+   word-wrap: normal;
+   ;
+}
+.title-text h2{
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 42px;
+  word-break: keep-all;
+
+}

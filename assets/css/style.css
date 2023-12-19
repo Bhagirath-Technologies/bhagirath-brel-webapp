@@ -1606,7 +1606,7 @@ form .submit-group {
 }
 
 /* The actual content */
-.content {
+.content-change {
   padding: 20px 30px;
   background-color: black;
   color: white;

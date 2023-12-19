@@ -928,9 +928,13 @@ html {
   padding: 30px 25px;
   border-radius: 30px;
   margin-bottom: 30px;
-
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+}
+@media only screen and (max-width:600px) {
+   .item{
+    margin-top: 123px;
+   }
 }
 .item:hover{
   background-color:var(--main-color);

@@ -182,6 +182,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="container">
+                   <div class="d-flex justify-content-center align-items-center mb-5">
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                   </div>
+                </div>
                 <div class="btn-wrap text-center reveal-fade col-md-12" style="opacity: 1;">
                  <div class="submit-group">
                    <input type="Submit" class="button-style" value="Send Enquiry">
@@ -264,6 +269,10 @@
     <div id="progress">
         <span id="progress-value">&#8593;</span>
     </div>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>

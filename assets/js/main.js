@@ -25,4 +25,7 @@ const myCarousel = document.getElementById('myCarousel')
     document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
   })
 
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
 

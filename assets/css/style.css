@@ -1047,9 +1047,12 @@ html {
 }
 .slider-area{
   background-image: url('../img/bg-images/home/hero-section/background-image.webp');
-  background-size: 100%;
-  background-position: 100%;
+  background-position: center;
   background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;;
+
 }
 .img-area{
   width: 100px;

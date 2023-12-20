@@ -756,7 +756,8 @@ html {
   text-align: center;
   padding-top: 20px;
   margin-top: -39px;
-  height: 40px;
+  height: 30px;
+  font-size: 12px;
 }
 
 #footer .credits {
@@ -1039,7 +1040,12 @@ html {
 .carousel_control{
   background: transparent;
 }
-
+.slider-area{
+  background-image: url('../img/bg-images/home/hero-section/background-image.webp');
+  background-size: 100%;
+  background-position: 100%;
+  background-attachment: fixed;
+}
 .img-area{
   width: 100px;
   height: 100px;
@@ -1571,7 +1577,7 @@ form .submit-group {
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: -4px;
 }
 
 /* Place the container to the right */
@@ -1610,7 +1616,7 @@ form .submit-group {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -12px;
 }
 
 /* The actual content */
@@ -1628,7 +1634,10 @@ form .submit-group {
   .timeline::after {
   left: 31px;
   }
-  
+  .right::after {
+    left: 18px;
+  }
+
   /* Full-width containers */
   .container-timeline {
   width: 100%;
@@ -1645,9 +1654,10 @@ form .submit-group {
   }
 
   /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
+  .left::after {
+  left: 18px;
   }
+
   
   /* Make all right containers behave like the left ones */
   .right {

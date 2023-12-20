@@ -25,7 +25,20 @@ const myCarousel = document.getElementById('myCarousel')
     document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
   })
 
-  var onloadCallback = function() {
-    alert("grecaptcha is ready!");
-  };
 
+  function submitForm() {
+    // Get the reCAPTCHA response
+    var captchaResponse = grecaptcha.getResponse();
+
+    // Check if the reCAPTCHA response is empty
+    if (captchaResponse === "") {
+        alert("Please complete the reCAPTCHA verification");
+        return;
+    }
+
+    // Your form processing logic goes here
+    // ...
+
+    // Optional: Reset the reCAPTCHA widget after form submission
+    grecaptcha.reset();
+}

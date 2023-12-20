@@ -1005,7 +1005,7 @@ html {
 @media only screen and (max-width:800px) {
   .services .service-item{
     position: absolute;
-    margin-left: 123px;
+    margin-left: 100px;
   }
 }
 

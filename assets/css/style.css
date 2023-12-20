@@ -997,11 +997,16 @@ html {
 
 .services .service-item {
   padding: 50px 30px;
-  transition: all ease-in-out 0.4s;
   background: var(--color-secondary);
   height: 100%;
   overflow: hidden;
   z-index: 1;
+}
+@media only screen and (max-width:800px) {
+  .services .service-item{
+    position: absolute;
+    margin-left: 123px;
+  }
 }
 
 .services .service-item img {

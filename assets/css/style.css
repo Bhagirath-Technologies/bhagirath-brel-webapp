@@ -64,6 +64,13 @@ html {
   .heading-solar {
     font-size: 40px;
     text-align: center;
+    margin-top: -173px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .test-container {
+    margin-top: -173px;
   }
 }
 @media only screen and (max-width:500px){
@@ -102,6 +109,11 @@ html {
     position: relative;
     top: -100px;
  }
+ }
+ @media only screen and (max-width:200px) {
+  .slider-show{
+     position: absolute;
+  }
  }
  #preloader {
   position: fixed;
@@ -271,9 +283,17 @@ html {
   line-height: 3.5rem;
   padding: 0.7rem;
 }
+ 
+
+@media only screen and (max-width:1500px) {
+  .carousel-item{
+    width: 100%;
+    margin-top: 7%;
+  }
+}
 
 .carousel-item:before {
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
   content: " ";
   height: 100%;
   left: 0;
@@ -436,7 +456,6 @@ html {
 #about {
   background: url("../img/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
   position: relative;
 }
 
@@ -597,6 +616,12 @@ html {
   left: calc(50% - 20px);
   margin-top: 8px;
 }
+.test-container{
+  margin-top: -123px;
+}
+.text-align{
+  margin-top: -85px;
+}
 #footer {
  
   padding: 0 0 30px 0;
@@ -669,6 +694,7 @@ html {
   color: black;
   position: relative;
   margin-top: -34px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width:900px){
@@ -709,6 +735,7 @@ html {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  font-weight: bold;
 }
 
 /* #footer .footer-top .footer-links ul a:hover {
@@ -727,8 +754,6 @@ html {
   border: 0;
   padding: 5px;
   width: 290px;
-  position: relative;
-  top: -4px;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"] {
@@ -755,9 +780,9 @@ html {
   border-top: 1px solid #385b6b;
   text-align: center;
   padding-top: 20px;
-  margin-top: -39px;
-  height: 30px;
+  height: 28px;
   font-size: 12px;
+  font-weight: bold;
 }
 
 #footer .credits {
@@ -1004,8 +1029,7 @@ html {
 }
 @media only screen and (max-width:800px) {
   .services .service-item{
-    position: absolute;
-    margin-left: 100px;
+ 
   }
 }
 
@@ -1052,6 +1076,7 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;;
+  padding: 100px 0;
 
 }
 .img-area{
@@ -1379,6 +1404,11 @@ video {
   padding-top: 30px;
   margin: 0 auto;
   text-align: center;
+}
+@media only screen and (max-width:800px) {
+  .set-adjacement{
+    margin-top: -68px;
+  }
 }
 
 .element-tiltes{

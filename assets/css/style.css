@@ -299,12 +299,7 @@ html {
   }
 }
 
-@media only screen and (max-width:500px) {
- 
-    #carousel-title h1{
-      margin-top: 80px;
-  }
-}
+
 
 .carousel-item:before {
   /* background: rgba(0, 0, 0, 0.6); */

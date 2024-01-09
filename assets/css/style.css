@@ -315,7 +315,7 @@ html {
 }
 .text-top{
   position: relative;
-  top: -123px;
+  top: -100px;
 }
 @media only screen and (max-width:900px) {
   .text-top{
@@ -1029,8 +1029,7 @@ html {
   height: 100%;
   width: 100%;;
   padding: 100px 0;
-  position: relative;
-  top: -100px;
+
 
 }
 .img-area{
@@ -1317,7 +1316,7 @@ video {
   padding: 0px;
 }
 
-.btn-close {
+.button-close {
   position: absolute;
   right: -30px;
   top: 0;

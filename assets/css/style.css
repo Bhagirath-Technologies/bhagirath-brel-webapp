@@ -959,9 +959,14 @@ html {
   z-index: 1;
 }
 @media only screen and (max-width:790px) {
+  .service-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   .service-item{
-   flex-direction: column;
-   margin-left: 93px;
+  text-align: center;
   }
 }
 

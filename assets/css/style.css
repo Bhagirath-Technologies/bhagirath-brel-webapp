@@ -299,7 +299,13 @@ html {
   }
 }
 
-
+@media only screen and (max-width:100px) {
+    #carousel_title{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+}
 
 .carousel-item:before {
   /* background: rgba(0, 0, 0, 0.6); */
@@ -952,9 +958,10 @@ html {
   overflow: hidden;
   z-index: 1;
 }
-@media only screen and (max-width:800px) {
-  .services .service-item{
- 
+@media only screen and (max-width:790px) {
+  .service-item{
+   flex-direction: column;
+   margin-left: 93px;
   }
 }
 

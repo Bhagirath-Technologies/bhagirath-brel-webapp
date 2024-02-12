@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BREL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.green.css">
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white bg-body-tertiary sticky-top">
+    <div class="container-fluid d-flex">
+      <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
+      <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
+        aria-controls="navbarSupportedContent">
+        <span class="navbar-toggler-icon d-lg-none"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="About.html">About Us</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="service.html">Serivces</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="OurStory.html">Our Story</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="Contactus.html">Contact us</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="Solar Calculater.html">Solar Calculator</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a href="Enquiry.html" class="bg_background rounded-0 py-3 px-lg-2 d-none d-lg-block">Get A Quotes<i
+          class="bi bi-arrow-right m-2"></i></a>
+    </div>
+  </nav>
+
+  <section class="flex-column d-block ">
+    <div class="hero_img bg_img5">
+      <h2 class="breadcrums_title ms-4">Solar Calculator</h2>
+      <div class="d-flex align-items-center justify-content-center ms-4 mb breadcrumb-section">
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb_icons"><i class="bi bi-chevron-right"></i></li>
+            <li class="breadcrumb-item text-white" aria-current="page">SolarCalculator</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="icons-social">
+      <ul class="list-icons">
+        <li>
+          <a href="Enquiry.html">
+            <i class="fa-regular fa-circle-question"></i>
+            <span>Enquiry</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <span>www.brel.com</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-headset"></i>
+            <span>Service Support</span>
+          </a>
+        </li>
+        <li>
+          <a href="Solar Calculater.html">
+            <i class="fa-solid fa-calculator"></i>
+            <span>Solar Calculator</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div style="
+            border: 1px solid #8a8a8a;
+            box-shadow: 0px 0px 5px #646464;
+            padding: 20px;
+            border-radius: 15px;
+          ">
+          <form id="conversionForm">
+            <h4 class="text-center">Ready to Switch to Solar<br /> Calculate your requirement.</h4>
+            <br />
+            <div class="form-group" style="margin-bottom: 20px">
+              <input type="text" placeholder="Enter your name" class="form-control mx-auto" id="nameInput" required
+                style="width: 100%" ; />
+            </div>
+            <div class="form-group" style="margin-bottom: 20px">
+              <input type="tel" placeholder="Enter your phone number" class="form-control mx-auto" id="phoneInput"
+                required style="width:100%" ; />
+            </div>
+            <div class="form-group" style="margin-bottom: 20px">
+              <input type="email" placeholder="Enter your email address" class="form-control mx-auto" id="emailInput"
+                required style="width: 100%" ; />
+            </div>
+            <div class="form-group" style="margin-bottom: 20px">
+              <input type="text" placeholder="Enter your city" class="form-control mx-auto" id="cityInput" required
+                style="width: 100%" ; />
+            </div>
+            <div class="form-group" style="margin-bottom: 20px">
+              <input type="number" placeholder="Enter Monthly Bill Amount (INR):" class="form-control mx-auto"
+                id="inrInput" required style="width: 100%" ; />
+            </div>
+            <div class="text-center">
+              <button type="button" class="bg_background bg btn btn-lg " data-toggle="modal" data-target="#resultModal">
+                Calculate Now
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="resultModalLabel">Your Requirement:</h5>
+        </div>
+        <div class="modal-body">
+          <p id="resultText"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closeModal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer id="footer" class="mt-5">
+    <div class="footer-top justify-content-between align-content-center">
+      <div class="container ">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Solar India</h3>
+
+              <strong class="me-2">Address:</strong>526 Iscon Emporio, Next to Star Bazaar, Satellite Road,
+              Satellite, Ahmedabad,Gujarat 380015 India<br>
+              <strong class="me-2">CIN:</strong> U36990GJ2019PTC109877<br>
+              <strong class="me-2">Website:</strong>www.brel.com<br>
+              <strong class="me-2">Email:</strong>info@brel.com<br>
+              </p>
+              <!-- <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-instagram"></i></a>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="About.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service.html">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="OurStory.html">Our Story</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Contactus.html">Contact us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Solar Calculater.html">Solar Calculater</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p style="font-weight: bold;">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container fw-bold">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Bhagirath Renewable Energy Private Limited</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a style="color: black; text-decoration: none; margin-left: 4px;"
+          href="Bhagirath tecnologies.com">Bhagirath Technologies Pvt Ltd.</a>
+      </div>
+    </div>
+  </footer>
+  <div id="whatsapp">
+    <a href="https://web.whatsapp.com/" target="_blank" id="toggle1" class="wtsapp">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+  <div id="progress">
+    <span id="progress-value">&#8593;</span>
+  </div>
+  <script>
+    $(document).ready(function () {
+      function billToKW(inr) {
+        return inr * 0.0008928571428571428;
+      }
+
+      $("#conversionForm button").on("click", function () {
+        var name = $("#nameInput").val();
+        var phone = $("#phoneInput").val();
+        var email = $("#emailInput").val();
+        var city = $("#cityInput").val();
+        var inr = parseFloat($("#inrInput").val());
+
+        if (!isNaN(inr)) {
+          var kw = billToKW(inr);
+          $("#resultText").html(
+            "<strong>Hi, </strong> " +
+            name +
+            "<br><br><strong>Monthly Bill Amount* :</strong> &#8377; " +
+            inr +
+            "<br><br><strong>You require 'KW' capacity plant to get maximum saving :</strong> " +
+            kw.toFixed(12)
+          );
+          $("#resultModal").modal("show");
+        } else {
+          $("#resultText").text(
+            "Please enter a valid amount in Indian Rupees (INR)."
+          );
+          $("#resultModal").modal("show");
+        }
+      });
+
+      $("#closeModal").click(function () {
+        $("#resultModal").modal("hide");
+      });
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

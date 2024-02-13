@@ -5,7 +5,6 @@
 }
 
 
-
 ::-webkit-scrollbar {
   width: 1rem;
 
@@ -73,17 +72,6 @@ h6 {
   line-height: 18px;
 }
 
-@media only screen and(max-width:480px) {
-
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    overflow-x: hidden;
-  }
-}
 
 @media only screen and (max-width: 1010px) {
   .btnplay {
@@ -322,7 +310,10 @@ h6 {
 .bg_img_1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/bg-images/home/hero-section/solar-panel.webp");
+
 }
+
+
 
 .bg_img_1:before {
   content: "";
@@ -471,6 +462,7 @@ h6 {
   background-size: cover;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 
@@ -987,6 +979,10 @@ h6 {
   bottom: 15px;
 }
 
+#featured-members {
+  overflow: hidden;
+}
+
 .featured-members .content+.content {
   margin-top: 100px;
 }
@@ -1152,7 +1148,9 @@ h6 {
   display: block;
   margin-top: 8px;
 }
-
+.slider-overlow{
+  overflow: hidden;
+}
 .carousel_control {
   background: transparent;
 }
@@ -1453,6 +1451,10 @@ h6 {
   margin-top: 16px;
 }
 
+#card-overflow {
+  overflow-x: hidden;
+}
+
 .card-box1 {
   position: relative;
   top: -210px;
@@ -1632,10 +1634,6 @@ video {
 
 @media only screen and (max-width: 900px) {
 
-  html,
-  body {
-    overflow-x: hidden;
-  }
 
   ::-webkit-scrollbar {
     display: none;
@@ -1867,7 +1865,6 @@ form .submit-group {
   margin-bottom: 123px;
 }
 
-/* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: "";
   position: absolute;
@@ -1879,7 +1876,6 @@ form .submit-group {
   margin-left: -3px;
 }
 
-/* Container around content */
 .container-timeline {
   padding: 10px 40px;
   position: relative;
@@ -1887,7 +1883,6 @@ form .submit-group {
   width: 50%;
 }
 
-/* The circles on the timeline */
 .container-timeline::after {
   content: "";
   position: absolute;
@@ -1901,18 +1896,15 @@ form .submit-group {
   z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
   left: -4px;
 }
 
-/* Place the container to the right */
 .right {
   position: relative;
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -1926,7 +1918,6 @@ form .submit-group {
   border-color: transparent transparent transparent var(--main-color);
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -1940,14 +1931,10 @@ form .submit-group {
   border-color: transparent var(--main-color) transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -12px;
 }
 
-
-
-/* The actual content */
 .content-change {
   padding: 20px 30px;
   background-color: var(--main-color);
@@ -1956,10 +1943,8 @@ form .submit-group {
   border-radius: 6px;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 1000px) {
 
-  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
@@ -1968,14 +1953,12 @@ form .submit-group {
     left: 18px;
   }
 
-  /* Full-width containers */
   .container-timeline {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
 
-  /* Make sure that all arrows are pointing leftwards */
   .container-timeline::before {
     left: 60px;
     border: medium solid var(--main-color);
@@ -1983,12 +1966,10 @@ form .submit-group {
     border-color: transparent var(--main-color) transparent transparent;
   }
 
-  /* Make sure all circles are at the same spot */
   .left::after {
     left: 22px;
   }
 
-  /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
   }

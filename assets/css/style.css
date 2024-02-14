@@ -2003,8 +2003,8 @@ form .submit-group {
   }
 
   #whatsapp .wtsapp {
-    top: 84%;
     left: 15px;
+    margin-top: 12px;
   }
 
   .element-icons-set {

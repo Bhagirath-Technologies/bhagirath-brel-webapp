@@ -332,6 +332,12 @@ h6 {
 /* .bg_img_4 {
   background-image: url(/assets/images/desktopitems.webp);
 } */
+.carousel-inner{
+  margin-top: -100px;
+}
+.carousel-top {
+  margin-top: -123px;
+}
 
 #carousel_title {
   bottom: 38%;

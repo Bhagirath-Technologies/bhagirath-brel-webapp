@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="assets/css/owl.carousel.css">
   <link rel="stylesheet" href="assets/css/owl.theme.green.css">
   <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/jquery.min.js"></script>
   <script src="./assets/js/owl.carousel.min.js"></script>
 
 </head>
@@ -145,12 +144,6 @@
     <span id="progress-value">&#8593;</span>
   </div>
   <script>
-       $(function () {
-
-$(".headerdiv").load("header.html");
-$(".footerdiv").load("footer.html");
-
-});
     $(document).ready(function () {
       function billToKW(inr) {
         return inr * 0.0008928571428571428;
@@ -186,6 +179,8 @@ $(".footerdiv").load("footer.html");
         $("#resultModal").modal("hide");
       });
     });
+     
+
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -200,3 +195,12 @@ $(".footerdiv").load("footer.html");
 </body>
 
 </html>
+
+<script>
+    $(function () {
+
+$(".headerdiv").load("header.html");
+$(".footerdiv").load("footer.html");
+
+});
+</script>

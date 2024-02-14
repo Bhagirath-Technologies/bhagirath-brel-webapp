@@ -1032,11 +1032,17 @@ h6 {
   border-radius: 50%;
 }
 
-.item:hover .item,
-.item:hover span.icon_service {
+.item .item,
+.item span.icon_service {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 96px;
+  width: 89x;
+}
+
+.item:hover .item,
+.item:hover span.icon_service {
   height: 96px;
   width: 89x;
   -webkit-transition: all 0.5s ease 0s;
@@ -1143,9 +1149,11 @@ h6 {
   display: block;
   margin-top: 8px;
 }
-.slider-overlow{
+
+.slider-overlow {
   overflow: hidden;
 }
+
 .carousel_control {
   background: transparent;
 }
@@ -1255,6 +1263,7 @@ h6 {
 
 .text-set {
   text-align: justify;
+  line-height: 36px;
 }
 
 .text-container h3 {
@@ -1349,7 +1358,7 @@ h6 {
   .item .item,
   .item span.icon_service i {
     position: relative;
-    bottom: 8px;
+    bottom: 1px;
   }
 
   .item .item,
@@ -1357,8 +1366,8 @@ h6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 77px;
-    width: 77px;
+    height: 96px;
+    width: 89x;
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
   }

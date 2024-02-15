@@ -341,7 +341,7 @@ h6 {
 }
 
 #carousel_title {
-  bottom: 28%;
+  bottom: 38%;
   color: var(--white-color);
   font-size: 22px;
   left: 15%;
@@ -1750,6 +1750,7 @@ video {
     padding-left: 50px;
   }
 }
+
 @media only screen and (max-width: 1600px) {
 
   .form-inner .form-row input[type="email"],

@@ -1750,16 +1750,6 @@ video {
     padding-left: 50px;
   }
 }
-
-@media only screen and (max-width:600px) {
-
-  .bg_img_1,
-  .bg_img_2,
-  .bg_img_3 {
-    height: 145vw;
-  }
-}
-
 @media only screen and (max-width: 1600px) {
 
   .form-inner .form-row input[type="email"],

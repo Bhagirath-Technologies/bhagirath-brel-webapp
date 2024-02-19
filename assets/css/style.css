@@ -613,13 +613,17 @@ h6 {
   margin-bottom: 34px;
 }
 
+.text-section {
+  text-align: justify;
+}
+
 .text-set {
   line-height: 33px;
   text-align: justify;
 }
 
 #section-wrapper {
-  margin-top: -85px;
+  margin-top: -45px;
 }
 
 .text_content h3::after {

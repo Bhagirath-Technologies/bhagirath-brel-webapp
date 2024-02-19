@@ -615,9 +615,10 @@ h6 {
 
 .text-set {
   line-height: 33px;
+  text-align: justify;
 }
 
-#section-wrapper{
+#section-wrapper {
   margin-top: -85px;
 }
 
@@ -2038,6 +2039,12 @@ form .submit-group {
     color: var(--white-color);
   }
 
+}
 
+.paragraph-elementer {
+  text-align: justify;
+}
 
+.paragraph-elementer p {
+  text-align: justify;
 }

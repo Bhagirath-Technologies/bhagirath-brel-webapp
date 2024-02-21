@@ -1,29 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+$pageTitle = 'Aboutus';
+include 'header.php'?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BREL</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.green.css">
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/owl.carousel.min.js"></script>
-
-</head>
-
-<body>
-
-  <!-- header -->
-  <div class="headerdiv"></div>
-  <!-- header -->
   <section class="flex-column d-block ">
     <div class="hero_img bg_img1">
       <h2 class="breadcrums_title ms-4">About us</h2>
@@ -42,7 +20,7 @@
     <div class="icons-social">
       <ul class="list-icons">
         <li>
-          <a href="Enquiry.html">
+          <a href="Enquiry.php">
             <i class="fa-regular fa-circle-question"></i>
             <span>Enquiry</span>
           </a>
@@ -60,7 +38,7 @@
           </a>
         </li>
         <li>
-          <a href="Solar Calculater.html">
+          <a href="Solar Calculater.php">
             <i class="fa-solid fa-calculator"></i>
             <span>Solar Calculator</span>
           </a>
@@ -270,48 +248,5 @@
       </div>
     </div>
   </section>
-  <!-- footer -->
-  <div class="footerdiv"></div>
-  <!-- footer -->
 
-
-  <div id="whatsapp">
-    <a href="https://web.whatsapp.com/" target="_blank" id="toggle1" class="wtsapp">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-  </div>
-  <section>
-    <div id="whatsapp">
-      <a href="https://web.whatsapp.com/" target="_blank" id="toggle1" class="wtsapp">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-    </div>
-    <div id="progress">
-      <span id="progress-value">&#8593;</span>
-    </div>
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      offset: 120,
-    });
-    $(function () {
-
-      $(".headerdiv").load("header.html");
-      $(".footerdiv").load("footer.html");
-
-    });
-  </script>
-</body>
-
-</html>
+  <?php include 'footer.php'?>

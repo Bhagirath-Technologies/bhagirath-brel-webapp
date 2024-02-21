@@ -1,26 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BREL</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.green.css">
-  <script src="./assets/js/main.js"></script>
-  <script src="./assets/js/owl.carousel.min.js"></script>
-
-</head>
-
-<body>
-  <footer id="footer" class="mt-5">
+<footer id="footer" class="mt-5">
     <div class="footer-top justify-content-between align-content-center">
       <div class="container ">
         <div class="row">
@@ -42,18 +20,18 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="About.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="service.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.php">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="About.php">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service.php">Services</a></li>
             </ul>
           </div>
 
           <div id="main-top" class="col-lg-2 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="OurStory.html">Our Story</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Contactus.html">Contact us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Solar Calculater.html">Solar Calculater</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="OurStory.php">Our Story</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Contactus.php">Contact us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Solar Calculater.php">Solar Calculater</a></li>
             </ul>
           </div>
 
@@ -76,7 +54,14 @@
           href="Bhagirath tecnologies.com">Bhagirath Technologies Pvt Ltd.</a>
       </div>
   </footer>
-
+  <div id="whatsapp">
+        <a href="https://web.whatsapp.com/" target="_blank" id="toggle1" class="wtsapp">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+    </div>
+    <div id="progress">
+        <span id="progress-value">&#8593;</span>
+    </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>

@@ -158,7 +158,9 @@ h6 {
     margin-top: -103px;
   }
 }
-
+.container-part{
+  display:flex;
+}
 .carousel-section {
   margin-top: -10px;
 }

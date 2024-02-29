@@ -448,6 +448,10 @@ h6 {
   background: var(--main-color);
   color: var(--white-color);
 }
+.address>h6{
+  margin-left: 60px;
+  font-size: 14px;
+}
 
 @keyframes animate-loading {
   0% {

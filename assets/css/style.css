@@ -158,9 +158,11 @@ h6 {
     margin-top: -103px;
   }
 }
-.container-part{
-  display:flex;
+
+.container-part {
+  display: flex;
 }
+
 .carousel-section {
   margin-top: -10px;
 }
@@ -405,6 +407,10 @@ h6 {
   font-size: 22px;
 }
 
+.info {
+  margin-top: 42px;
+}
+
 .contact-us .info {
   width: 100%;
   background: var(--white-color);
@@ -450,7 +456,8 @@ h6 {
   background: var(--main-color);
   color: var(--white-color);
 }
-.address>h6{
+
+.address>h6 {
   margin-left: 60px;
   font-size: 14px;
 }
@@ -623,7 +630,7 @@ h6 {
   line-height: 33px;
 }
 
-#section-wrapper{
+#section-wrapper {
   margin-top: -85px;
 }
 
@@ -1842,6 +1849,7 @@ form .submit-group {
 
 .form-inner {
   margin-bottom: -23px;
+  margin-top: 55px;
 }
 
 .button-style {
@@ -2019,8 +2027,9 @@ form .submit-group {
   .iframe_map {
     border: 0;
     width: 100%;
-    height: 250px;
-  
+    height: 410px;
+    margin-top: 85px;
+
   }
 
   #whatsapp .wtsapp {

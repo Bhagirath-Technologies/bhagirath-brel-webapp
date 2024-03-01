@@ -128,6 +128,7 @@ h6 {
     top: 158px;
     font-size: 18px !important;
   }
+  
 }
 
 
@@ -2057,4 +2058,29 @@ form .submit-group {
 
 
 
+}
+    /* make a pmc page and section  */
+.pmc-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pmc-right{
+  margin-left: 20px;
+}
+
+.pmc-left{
+  margin-right: 20px;
+  padding-top: 40px;
+}
+
+
+@media only screen and (max-width: 430px){
+  .pmc-main{
+    flex-direction: column;
+    /* text-align: justify; */
+  }
+  .pmc-main h1{
+    padding-bottom: 10px;
+  }
 }

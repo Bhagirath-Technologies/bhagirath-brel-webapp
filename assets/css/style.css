@@ -659,7 +659,7 @@ h6 {
 }
 
 .test-container {
-  margin-top: -123px;
+  margin-top: 50px;
 }
 
 .text-align {
@@ -2083,4 +2083,120 @@ form .submit-group {
   .pmc-main h1{
     padding-bottom: 10px;
   }
+/* make a business partner responsive  */
+
+.business-partner{
+  padding-top: 150px;
+}
+.business-partner h1{
+  padding-bottom: 30px;
+}
+
+.PROMAX{
+  flex-direction: column;
+  padding-top: 90px;
+padding-bottom: 50px;
+
+}
+
+.SUNLIGHT-INFRA{
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.MAXBO-SOLAR-ENERGY{
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.COSMIC-PV-POWER-PRIVATE-LIMITED{
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+
+}
+/* make a business partner section  */
+
+.business-partner{
+  margin-top: -200px;
+}
+.business-partner h1 {
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.promax-right h5{
+  color: #f1b20b;
+}
+
+.PROMAX{
+  background-color:#dbdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* make a second partner  */
+.SUNLIGHT-INFRA{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+}
+.SUNLIGHT-right h5{
+  color:#f1b20b;
+}
+
+/* make a thired partner  */
+.MAXBO-SOLAR-ENERGY{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  background-color:#dbdcdc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+}
+.MAXBO-SOLAR-ENERGY-right h5{
+  color:#f1b20b;
+}
+/* make a fourt partner  */
+.COSMIC-PV-POWER-PRIVATE-LIMITED{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+
+}
+.COSMIC-PV-POWER-PRIVATE-LIMITED-right h5{
+  color:#f1b20b;
+}
+
+/* tab responsive work  */
+@media only screen and (max-width: 768px){
+.business-partner{
+  padding-top: 100px;
+}
+
+}
+@media only screen and (max-width: 820px){
+  
+.business-partner{
+  padding-top: 100px;
+}
 }

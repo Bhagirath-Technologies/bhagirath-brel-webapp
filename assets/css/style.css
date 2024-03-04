@@ -2077,22 +2077,15 @@ video {
   padding-left: 20px;
   gap: 20px;
 }
-<<<<<<< HEAD
-
 .pmc-right {
   margin-left: 20px;
 }
 
 .pmc-left {
   margin-right: 20px;
-=======
-.pmc-right{
-  /* margin-left: 20px; */
 }
 
 .pmc-left{
-  /* margin-right: 20px; */
->>>>>>> f00457de5c4a1e14dfaac46a521caed492a8d480
   padding-top: 40px;
 }
 .pmc-left img{
@@ -2107,7 +2100,7 @@ video {
 @media only screen and (max-width: 430px) {
   .pmc-main {
     flex-direction: column;
-    /* text-align: justify; */
+  
   }
 
   .pmc-main h1 {

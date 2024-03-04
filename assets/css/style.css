@@ -2122,6 +2122,9 @@ video {
 padding-bottom: 50px;
 
 }
+.promax-left img{
+  width: 260px;
+}
 
 .SUNLIGHT-INFRA{
   flex-direction: column;

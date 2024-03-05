@@ -1136,7 +1136,7 @@ h6 {
   color: white;
   border-radius: 4px;
   box-shadow: inset 0 0 0 var(--DryGrass-color);
-  transition: ease-out 0.3s;
+  transition: ease-out 0.5s;
   outline: none;
   text-decoration: none;
 }
@@ -1559,6 +1559,23 @@ h6 {
   position: relative;
   top: -10px;
   text-align: justify;
+}
+
+.text-adjacent {
+  margin-top: -73px;
+}
+
+.text-adjacent h3 {
+  margin-left: 40px;
+}
+
+.list_products {
+  margin: 22px;
+}
+
+.list_products li {
+  margin: 10px;
+  list-style: none;
 }
 
 /* .icons-social {

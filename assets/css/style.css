@@ -1118,15 +1118,60 @@ h6 {
   font-size: 23px;
 }
 
+.middle {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -5%);
+  text-align: center;
+
+}
+
 .bg_background {
-  background-color: var(--main-color);
-  color: var(--white-color);
   text-decoration: none;
+  background: none;
+  border: 2px solid var(--DryGrass-color);
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0, 4s linear;
+  position: relative;
 }
 
 .bg_background:hover {
-  background-color: var(--DryGrass-color);
   color: var(--white-color);
+}
+
+.bg_background::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.btn1::before {
+  transform: scaleX(0);
+}
+
+.btn1:hover::before {
+  transform: scaleX(1);
+}
+
+.title-sections p {
+  text-align: justify;
+}
+
+.title-sections h2 {
+  font-size: 42px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width:2500px) {
@@ -1746,8 +1791,7 @@ video {
   margin-bottom: 123px;
 }
 
-.--------------------------------*/
-#contact {
+.--------------------------------*/ #contact {
   padding: 60px 0;
 }
 
@@ -1805,6 +1849,10 @@ video {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+}
+
+.section-bg {
+  margin-bottom: 122px;
 }
 
 #contact .php-email-form {
@@ -2077,6 +2125,7 @@ video {
   padding-left: 20px;
   gap: 20px;
 }
+
 .pmc-right {
   margin-left: 20px;
 }
@@ -2085,10 +2134,11 @@ video {
   margin-right: 20px;
 }
 
-.pmc-left{
+.pmc-left {
   padding-top: 40px;
 }
-.pmc-left img{
+
+.pmc-left img {
   height: 250px;
   width: 300px;
 }
@@ -2100,69 +2150,77 @@ video {
 @media only screen and (max-width: 430px) {
   .pmc-main {
     flex-direction: column;
-  
+
   }
 
   .pmc-main h1 {
     padding-bottom: 10px;
   }
 
-/* make a business partner responsive  */
+  /* make a business partner responsive  */
 
-.business-partner{
-  padding-top: 150px;
-}
-.business-partner h1{
-  padding-bottom: 30px;
+  .business-partner {
+    padding-top: 150px;
+  }
+
+  .business-partner h1 {
+    padding-bottom: 30px;
+  }
+
+  .PROMAX {
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 50px;
+
+  }
+
+  .promax-left img {
+    width: 260px;
+  }
+
+  .SUNLIGHT-INFRA {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .MAXBO-SOLAR-ENERGY {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .COSMIC-PV-POWER-PRIVATE-LIMITED {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  /* make QA responsive  */
+  .QA {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
 }
 
-.PROMAX{
-  flex-direction: column;
-  padding-top: 90px;
-padding-bottom: 50px;
-
-}
-.promax-left img{
-  width: 260px;
-}
-
-.SUNLIGHT-INFRA{
-  flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.MAXBO-SOLAR-ENERGY{
-  flex-direction: column;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.COSMIC-PV-POWER-PRIVATE-LIMITED{
-  flex-direction: column;
-  padding-top: 20px;
-}
-/* make QA responsive  */
-.QA{
-  flex-direction: column;
-  padding-top: 20px;
-}
-
-}
 /* make a business partner section  */
 
-.business-partner{
+.business-partner {
   margin-top: -200px;
 }
+
 .business-partner h1 {
-text-align: center;
-padding-bottom: 20px;
-padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.promax-right h5{
+
+.promax-right h5 {
   color: #f1b20b;
 }
 
-.PROMAX{
-  background-color:#dbdcdc;
+.PROMAX {
+  background-color: #dbdcdc;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2173,7 +2231,7 @@ padding-top: 20px;
 }
 
 /* make a second partner  */
-.SUNLIGHT-INFRA{
+.SUNLIGHT-INFRA {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2183,42 +2241,46 @@ padding-top: 20px;
   padding-left: 25px;
 
 }
-.SUNLIGHT-right h5{
-  color:#f1b20b;
+
+.SUNLIGHT-right h5 {
+  color: #f1b20b;
 }
 
 /* make a thired partner  */
-.MAXBO-SOLAR-ENERGY{
+.MAXBO-SOLAR-ENERGY {
   display: flex;
   align-items: center;
-  justify-content: space-around; 
-  background-color:#dbdcdc;
+  justify-content: space-around;
+  background-color: #dbdcdc;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 25px;
   padding-left: 25px;
 
 }
-.MAXBO-SOLAR-ENERGY-right h5{
-  color:#f1b20b;
+
+.MAXBO-SOLAR-ENERGY-right h5 {
+  color: #f1b20b;
 }
+
 /* make a fourt partner  */
-.COSMIC-PV-POWER-PRIVATE-LIMITED{
+.COSMIC-PV-POWER-PRIVATE-LIMITED {
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 25px;
   padding-left: 25px;
 
 }
-.COSMIC-PV-POWER-PRIVATE-LIMITED-right h5{
-  color:#f1b20b;
+
+.COSMIC-PV-POWER-PRIVATE-LIMITED-right h5 {
+  color: #f1b20b;
 }
 
 /* make a Quality-Assurance section in pmc  */
-.QA{
+.QA {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2227,21 +2289,23 @@ padding-top: 20px;
   gap: 30px;
   padding-bottom: 100px;
 }
-.QA-right img{
+
+.QA-right img {
   height: 250px;
   width: 300px;
 }
 
 /* tab responsive work  */
-@media only screen and (max-width: 768px){
-.business-partner{
-  padding-top: 100px;
-}
+@media only screen and (max-width: 768px) {
+  .business-partner {
+    padding-top: 100px;
+  }
 
 }
-@media only screen and (max-width: 820px){
-  
-.business-partner{
-  padding-top: 100px;
-}
+
+@media only screen and (max-width: 820px) {
+
+  .business-partner {
+    padding-top: 100px;
+  }
 }

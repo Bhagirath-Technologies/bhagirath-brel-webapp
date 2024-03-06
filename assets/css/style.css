@@ -2033,6 +2033,10 @@ video {
   font-weight: 600
 }
 
+.text_box p {
+  text-align: justify;
+}
+
 .product_desc {
   font-size: 18px;
   text-align: justify

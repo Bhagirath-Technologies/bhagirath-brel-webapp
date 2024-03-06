@@ -1,0 +1,212 @@
+.solar-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.solar-product-right{
+    text-align: justify;
+    /* padding-left: 20px; */
+}
+.solar-product-right  h5{
+    color: 	#008000;
+}
+.solar-product-left img{
+    height: 400px;
+    width: 450px;
+    /* background-color: red; */
+   
+}
+
+/* make a type of solar  */
+
+.type-solar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.type-one img{
+    height: 450px;
+    width: 450px;
+}
+.type-two img{
+    height: 450px;
+    width: 450px;
+}
+/* make a key feture  */
+.key{
+ background-color: rgb(223, 236, 247);
+padding: 20px;
+margin-bottom: 50px;
+/* text-align: justify; */
+}
+.list_products {
+    margin: 22px;
+    /* text-align: justify; */
+  }
+  
+  .list_products li {
+    margin: 10px;
+    list-style: none;
+  }
+  
+/* streat solar light section  */
+
+.background-img{
+background-image: url(/assets/img/bg-images/products-img/streat-solar-light.jpg);
+height: 80vh;
+/* width: 100px; */
+background-size:cover;
+background-repeat: no-repeat;
+}
+.background-content{
+    width: 750px;
+    padding: 30px 30px 50px ;
+    /* margin: auto; */
+    /* margin-top: 100px; */
+    /* font-size: 20px; */
+    /* line-height: 1.5; */
+    /* letter-spacing: 1px; */
+    /* text-align: left; */
+    border-radius: 6px;
+    text-align: justify;
+    background:rgba(82,136,217,.3 );
+    position: relative;
+    top: 30%;
+}
+/* make a solar pumap section  */
+.solar-pump{
+    display: flex;
+    padding: 22px 22px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.right-solar-pump img{
+    height: 350px;
+    width: 400px;
+}
+
+/* .left-solar-pump{
+    text-align: justify;
+} */
+.left-solar-pump h1{
+    color: blue;
+}
+
+
+/* make a on grid system  */
+
+.On-Grid-System{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    gap: 25px;
+}
+
+.left-On-Grid-System img{
+    height: 350px;
+    width: 350px;
+}
+
+/* make a of  grid section  */
+
+.Off-Grid-System{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px;
+    gap: 25px;
+
+}
+
+.R-Off-Grid-System img{
+    /* height: 350px;
+    width: 350px; */
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 430px){
+    /* make solar product responsive  */
+    .solar-product{
+        flex-direction: column;
+        text-align: justify;
+        padding-right: 20px;
+    }
+    .solar-product-right{
+        text-align: justify;
+    }
+    .solar-product-left img {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+/* make a type of solar responsive  */
+.type-solar{
+    flex-direction: column;
+}
+.type-one p{
+   text-align: center;
+}
+.type-two p{
+    text-align: center;
+}
+.overflow{
+    overflow: hidden;
+}
+}
+/* streat solar light section  */
+.background-content{
+    text-align: justify;
+}
+/* make a solar pump responsive  */
+.solar-pump{
+    flex-direction: column;
+}
+
+
+.On-Grid-System{
+    flex-direction: column;
+}
+.Off-Grid-System{
+    flex-direction: column;
+}
+
+
+
+
+/* i make a responsive view in tab -i-paid-mini  */
+
+@media only screen and (max-width: 768px){
+.overflow{
+    overflow: hidden;
+}
+
+
+}
+
+
+
+
+/* i make a responsive view in tab i-paid-air */
+
+@media only screen and (max-width: 820px) {
+    .overflow{
+        overflow: hidden;
+    }
+   
+}

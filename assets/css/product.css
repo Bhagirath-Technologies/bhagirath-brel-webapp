@@ -178,6 +178,9 @@ background-repeat: no-repeat;
     flex-direction: column;
 }
 
+.background-img{
+    overflow: hidden;
+}
 
 .On-Grid-System{
     flex-direction: column;

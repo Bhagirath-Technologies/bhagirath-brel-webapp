@@ -1,4 +1,4 @@
-.solar-product{
+.solar-product {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -8,24 +8,28 @@
     padding-right: 20px;
 
 }
-.solar-product-right p{
+
+.solar-product-right p {
     text-align: justify;
     /* padding-left: 20px; */
 }
-.solar-product-right  h5{
+
+.solar-product-right h5 {
     color: lightseagreen;
 }
-.solar-product-left img{
+
+.solar-product-left img {
     height: 400px;
     width: 450px;
     /* background-color: red; */
-   
-}
-.solar-p h2{
-text-align: center;
+
 }
 
-.solar-p h4{
+.solar-p h2 {
+    text-align: center;
+}
+
+.solar-p h4 {
     text-align: center;
     margin-top: 20px;
     color: #0000FF;
@@ -35,50 +39,54 @@ text-align: center;
 
 /* make a type of solar  */
 
-.type-solar{
+.type-solar {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
 }
 
-.type-one img{
+.type-one img {
     height: 450px;
     width: 450px;
 }
-.type-two img{
+
+.type-two img {
     height: 450px;
     width: 450px;
 }
+
 /* make a key feture  */
-.key{
- background-color: rgb(223, 236, 247);
-padding: 20px;
-margin-bottom: 50px;
-/* text-align: justify; */
+.key {
+    background-color: rgb(223, 236, 247);
+    padding: 20px;
+    margin-bottom: 50px;
+    /* text-align: justify; */
 }
+
 .list_products {
     margin: 22px;
     /* text-align: justify; */
-  }
-  
-  .list_products li {
+}
+
+.list_products li {
     margin: 10px;
     list-style: none;
-  }
-  
+}
+
 /* streat solar light section  */
 
-.background-img{
-background-image: url(/assets/img/bg-images/products-img/streat-solar-light.jpg);
-height: 80vh;
-/* width: 100px; */
-background-size:cover;
-background-repeat: no-repeat;
+.background-img {
+    background-image: url(/assets/img/bg-images/products-img/streat-solar-light.jpg);
+    height: 80vh;
+    /* width: 100px; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.background-content{
+
+.background-content {
     width: 750px;
-    padding: 30px 30px 50px ;
+    padding: 30px 30px 50px;
     /* margin: auto; */
     /* margin-top: 100px; */
     /* font-size: 20px; */
@@ -87,32 +95,36 @@ background-repeat: no-repeat;
     /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
-    background:rgba(82,136,217,.3 );
+    background: rgba(82, 136, 217, .3);
     position: relative;
     top: 30%;
 }
+
 /* make a solar pumap section  */
-.background-content{
+.background-content {
     text-align: justify;
 }
+
 /* make a solar pump responsive  */
-.background-img{
+.background-img {
     overflow: hidden;
 }
-.solar-pump{
+
+.solar-pump {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 20px;
     gap: 30px;
 }
-.solar-pump-left img{
+
+.solar-pump-left img {
     height: 300px;
     width: 300px;
 }
 
 /* make a Solar On-Grid sectioin  */
-.Solar-On-Grid{
+.Solar-On-Grid {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -120,88 +132,109 @@ background-repeat: no-repeat;
     gap: 20px;
 
 }
-.RIGHT-Solar-On-Grid p{
+
+.RIGHT-Solar-On-Grid p {
     text-align: justify;
 }
-.RIGHT-Solar-On-Grid h5{
-    color:lightseagreen;
+
+.RIGHT-Solar-On-Grid h5 {
+    color: lightseagreen;
 }
+
 /* make a Solar-Off-Grid-System section  */
 
-.Solar-Off-Grid-System{
+.Solar-Off-Grid-System {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
     gap: 20px;
 }
-.right-Solar-Off-Grid p{
+
+.right-Solar-Off-Grid p {
     text-align: justify;
 }
-.right-Solar-Off-Grid h5{
-    color:lightseagreen;
+
+.right-Solar-Off-Grid h5 {
+    color: lightseagreen;
 }
-.solar-off h2{
-    text-align: center;
-    color: #0000FF;
-}
-.on-grid h2{
+
+.solar-off h2 {
     text-align: center;
     color: #0000FF;
 }
 
-@media only screen and (max-width: 430px){
+.on-grid h2 {
+    text-align: center;
+    color: #0000FF;
+}
+
+@media only screen and (max-width: 430px) {
+
     /* make solar product responsive  */
-    .solar-product{
+    .solar-product {
         flex-direction: column;
         padding-right: 20px;
     }
+
     .solar-product-right p {
         text-align: justify;
     }
+
     .solar-product-left img {
         padding-right: 20px;
         padding-left: 20px;
     }
 
-/* make a type of solar responsive  */
-.type-solar{
-    flex-direction: column;
-}
-.type-one p{
-   text-align: center;
-}
-.type-two p{
-    text-align: center;
-}
-.overflow{
-    overflow: hidden;
-}
+    /* make a type of solar responsive  */
+    .type-solar {
+        flex-direction: column;
+    }
 
-.solar-pump{
-    flex-direction: column;
-}
-.on-grid{
-    flex-direction: column;
-}
-.Solar-On-Grid{
-    flex-direction: column;
-}
-.solar-off{
-    flex-direction: column;
-}
-.Solar-Off-Grid-System{
-    flex-direction: column;
-}
+    .type-one p {
+        text-align: center;
+    }
+
+    .type-two p {
+        text-align: center;
+    }
+
+    .overflow {
+        overflow: hidden;
+    }
+
+    .solar-pump {
+        flex-direction: column;
+    }
+
+    .on-grid {
+        flex-direction: column;
+    }
+
+    .Solar-On-Grid {
+        flex-direction: column;
+    }
+
+    .solar-off {
+        flex-direction: column;
+    }
+
+    .Solar-Off-Grid-System {
+        flex-direction: column;
+    }
+
+    .section-text {
+        margin-top: 20px;
+    }
 }
 
 
 /* i make a responsive view in tab -i-paid-mini  */
 
-@media only screen and (max-width: 768px){
-.overflow{
-    overflow: hidden;
-}
+@media only screen and (max-width: 768px) {
+    .overflow {
+        overflow: hidden;
+    }
 
 
 }
@@ -212,15 +245,16 @@ background-repeat: no-repeat;
 /* i make a responsive view in tab i-paid-air */
 
 @media only screen and (max-width: 820px) {
-    .overflow{
+    .overflow {
         overflow: hidden;
     }
-   
+
 }
+
 /* i make a responsive view in tab i-paid-pro */
 @media only screen and (max-width: 1024px) {
-    .overflow{
+    .overflow {
         overflow: hidden;
     }
-   
+
 }

@@ -2567,10 +2567,17 @@ video {
     padding-top: 20px;
   }
 
+  .section-text {
+    margin-top: 22px;
+  }
+
+}
+
+.section-text {
+  margin-top: 22px;
 }
 
 /* make a business partner section  */
-
 .business-partner {
   margin-top: -200px;
 }

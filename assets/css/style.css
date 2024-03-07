@@ -152,6 +152,52 @@ h6 {
     position: relative;
     top: 100px;
   }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px;
+
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+  }
+
+  h6 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .top-section {
+    margin-top: -123px !important;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -176,6 +222,10 @@ h6 {
 
 .carousel-section {
   margin-top: -10px;
+}
+
+.footerdiv {
+  margin-top: 123px;
 }
 
 .navbar-toggle {

@@ -9,13 +9,20 @@
 
 }
 
+.solar-product{
+margin-top: -100px;
+}
 .solar-product-right p {
     text-align: justify;
     /* padding-left: 20px; */
 }
 
+.textchange{
+    text-align: center;
+    
+}
 .solar-product-right h5 {
-    color: lightseagreen;
+    color:#9b9d68;
 }
 
 .solar-product-left img {
@@ -39,11 +46,16 @@
 
 /* make a type of solar  */
 
+
+.ty{
+    margin-top: -50px;
+}
+
 .type-solar {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 .type-one img {
@@ -77,7 +89,7 @@
 /* streat solar light section  */
 
 .background-img {
-    background-image: url(/assets/img/bg-images/products-img/streat-solar-light.jpg);
+    background-image: url(/assets/img/bg-images/products-img/jpeg-optimizer_07.webp);
     height: 80vh;
     /* width: 100px; */
     background-size: cover;
@@ -95,7 +107,7 @@
     /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
-    background: rgba(82, 136, 217, .3);
+    background: rgba(185, 190, 16, 0.2); 
     position: relative;
     top: 30%;
 }
@@ -104,6 +116,14 @@
 .background-content {
     text-align: justify;
 }
+
+.background-content h1{
+color:whitesmoke;
+}
+.background-content p{
+    color: whitesmoke;
+}
+
 
 /* make a solar pump responsive  */
 .background-img {
@@ -117,6 +137,11 @@
     padding: 20px 20px;
     gap: 30px;
 }
+.solar-pump-right h1{
+    color: var(--main-color);
+}
+
+
 
 .solar-pump-left img {
     height: 300px;
@@ -138,7 +163,7 @@
 }
 
 .RIGHT-Solar-On-Grid h5 {
-    color: lightseagreen;
+    color:#9b9d68;
 }
 
 /* make a Solar-Off-Grid-System section  */
@@ -156,7 +181,7 @@
 }
 
 .right-Solar-Off-Grid h5 {
-    color: lightseagreen;
+    color:#9b9d68;
 }
 
 .solar-off h2 {
@@ -176,6 +201,12 @@
         flex-direction: column;
         padding-right: 20px;
     }
+.textchange{
+    padding: 20px 20px;
+margin-bottom: -40px;
+text-align: center;
+}
+
 
     .solar-product-right p {
         text-align: justify;
@@ -236,7 +267,7 @@
         overflow: hidden;
     }
 
-
+   
 }
 
 
@@ -248,7 +279,6 @@
     .overflow {
         overflow: hidden;
     }
-
 }
 
 /* i make a responsive view in tab i-paid-pro */

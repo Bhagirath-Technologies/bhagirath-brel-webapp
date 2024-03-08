@@ -198,6 +198,10 @@ h6 {
     margin-top: -123px !important;
   }
 
+  .text_box {
+    padding: 22px 9px !important;
+  }
+
 }
 
 @media only screen and (max-width: 1000px) {

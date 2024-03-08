@@ -2689,3 +2689,9 @@ video {
   height: 510px;
   margin-top: 75px;
 }
+
+.text-section h4 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--main-color);
+}

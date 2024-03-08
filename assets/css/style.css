@@ -2494,6 +2494,7 @@ video {
 
 .pmc-right {
   margin-left: 20px;
+  color: var(--main-color);
 }
 
 .pmc-left {

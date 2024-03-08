@@ -369,7 +369,7 @@ h6 {
 
 .bg_img_1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/bg-images/home/hero-section/solar-panel.webp");
+    url("../img/bg-images/home/hero-section/jpeg-optimizer_Home_01.webp");
 
 }
 
@@ -386,12 +386,12 @@ h6 {
 
 .bg_img_2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/bg-images/home/hero-section/commercial-solar.webp");
+    url("../img/bg-images/home/hero-section/jpeg-optimizer_Home_02.webp");
 }
 
 .bg_img_3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/bg-images/home/hero-section/residental-solar.webp");
+    url("../img/bg-images/home/hero-section/jpeg-optimizer_Home_03.webp");
 }
 
 /* .bg_img_4 {

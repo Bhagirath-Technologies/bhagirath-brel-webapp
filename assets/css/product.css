@@ -58,6 +58,20 @@ margin-top: -100px;
     /* background-color: whitesmoke; */
 }
 
+.solar-t{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solar-t-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
 .type-one img {
     height: 450px;
     width: 450px;
@@ -230,6 +244,17 @@ text-align: center;
         text-align: center;
     }
 
+.solar-t  {
+flex-direction: column;    
+}
+.solar-t-left{
+    flex-direction: column;
+}
+
+
+
+
+
     .overflow {
         overflow: hidden;
     }
@@ -267,7 +292,9 @@ text-align: center;
         overflow: hidden;
     }
 
-   
+   .type-solar{
+    flex-direction: column;
+   }
 }
 
 
@@ -279,6 +306,9 @@ text-align: center;
     .overflow {
         overflow: hidden;
     }
+    .type-solar{
+        flex-direction: column;
+       }
 }
 
 /* i make a responsive view in tab i-paid-pro */
@@ -286,6 +316,9 @@ text-align: center;
     .overflow {
         overflow: hidden;
     }
+    .type-solar{
+        flex-direction: column;
+       }
 
 }
 

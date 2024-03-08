@@ -966,7 +966,7 @@ h6 {
 }
 
 .bg_img3 {
-  background-image: url("../img/bg-images/Our_story/Our_Story.webp");
+  background-image: url("../img/bg-images/products-img/Product.jpg");
 }
 
 .bg_img4 {
@@ -974,7 +974,7 @@ h6 {
 }
 
 .bg_img5 {
-  background-image: url("../img/bg-images/SolarCalculator/Solar_Calculater.webp");
+  background-image: url("../img/bg-images/SolarCalculator/Solar_calculater.jpg");
 }
 
 .bg_img6 {
@@ -987,6 +987,10 @@ h6 {
 
 .bg_img8 {
   background-image: url("../img/bg-images/enquiry/Consultation-img.webp ");
+}
+
+.bg_img9 {
+  background-image: url("../img/bg-images/pmc/pmc.jpg ");
 }
 
 .hero_img {

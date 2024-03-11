@@ -129,6 +129,8 @@ h6 {
     font-size: 18px !important;
   }
 
+
+
 }
 
 
@@ -2472,6 +2474,8 @@ video {
   .background-color-element {
     background-color: var(--main-color);
     color: var(--white-color);
+    border-radius: 15px;
+    padding: 12px
   }
 
   .background-color-element i {
@@ -2572,10 +2576,18 @@ video {
     margin-top: 22px;
   }
 
+
+
+}
+
+.social-links {
+  color: rgba(82, 86, 94, 0.5);
+
 }
 
 .section-text {
   margin-top: 22px;
+  
 }
 
 /* make a business partner section  */

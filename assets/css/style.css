@@ -2395,6 +2395,10 @@ video {
     width: 60px;
     z-index: 10;
   }
+
+  .texting {
+    margin-top: 20px;
+  }
 }
 
 .con_div {
@@ -2500,6 +2504,10 @@ video {
 .pmc-right {
   margin-left: 20px;
   color: var(--main-color);
+}
+
+.pmc-right p {
+  text-align: justify;
 }
 
 .pmc-left {
@@ -2716,4 +2724,12 @@ video {
   font-size: 32px;
   font-weight: bold;
   color: var(--main-color);
+}
+
+.QA-left {
+  text-align: justify;
+}
+
+.texting {
+  display: inline-block;
 }

@@ -9,21 +9,23 @@
 
 }
 
-.solar-product{
-margin-top: -100px;
+.solar-product {
+    margin-top: -100px;
 }
+
 .solar-product-right p {
     text-align: justify;
     /* padding-left: 20px; */
 }
 
-.textchange{
+.textchange {
     text-align: center;
     color: #29516a;
-    
+
 }
+
 .solar-product-right h5 {
-    color:#9b9d68;
+    color: #9b9d68;
 }
 
 .solar-product-left img {
@@ -48,7 +50,7 @@ margin-top: -100px;
 /* make a type of solar  */
 
 
-.ty{
+.ty {
     margin-top: -50px;
 }
 
@@ -59,12 +61,13 @@ margin-top: -100px;
     /* background-color: whitesmoke; */
 }
 
-.solar-t{
+.solar-t {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.solar-t-left{
+
+.solar-t-left {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -104,7 +107,7 @@ margin-top: -100px;
 /* streat solar light section  */
 
 .background-img {
-    background-image: url(/assets/img/bg-images/products-img/jpeg-optimizer_07.webp);
+    background-image: url(../img/bg-images/products-img/jpeg-optimizer_07.webp);
     height: 80vh;
     /* width: 100px; */
     background-size: cover;
@@ -122,7 +125,7 @@ margin-top: -100px;
     /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
-    background: rgba(82, 136, 217, .3); 
+    background: rgba(82, 136, 217, .3);
     position: relative;
     top: 30%;
 }
@@ -132,10 +135,11 @@ margin-top: -100px;
     text-align: justify;
 }
 
-.background-content h1{
-color:whitesmoke;
+.background-content h1 {
+    color: whitesmoke;
 }
-.background-content p{
+
+.background-content p {
     color: whitesmoke;
 }
 
@@ -152,7 +156,8 @@ color:whitesmoke;
     padding: 20px 20px;
     gap: 30px;
 }
-.solar-pump-right h1{
+
+.solar-pump-right h1 {
     color: var(--main-color);
 }
 
@@ -170,6 +175,8 @@ color:whitesmoke;
     justify-content: space-around;
     padding: 20px 20px;
     gap: 20px;
+    margin-top: -40px;
+    margin-bottom: -60px;
 
 }
 
@@ -178,7 +185,7 @@ color:whitesmoke;
 }
 
 .RIGHT-Solar-On-Grid h5 {
-    color:#9b9d68;
+    color: #9b9d68;
 }
 
 /* make a Solar-Off-Grid-System section  */
@@ -196,7 +203,7 @@ color:whitesmoke;
 }
 
 .right-Solar-Off-Grid h5 {
-    color:#9b9d68;
+    color: #9b9d68;
 }
 
 .solar-off h2 {
@@ -216,11 +223,12 @@ color:whitesmoke;
         flex-direction: column;
         padding-right: 20px;
     }
-.textchange{
-    padding: 20px 20px;
-margin-bottom: -40px;
-text-align: center;
-}
+
+    .textchange {
+        padding: 20px 20px;
+        margin-bottom: -40px;
+        text-align: center;
+    }
 
 
     .solar-product-right p {
@@ -245,12 +253,13 @@ text-align: center;
         text-align: center;
     }
 
-.solar-t  {
-flex-direction: column;    
-}
-.solar-t-left{
-    flex-direction: column;
-}
+    .solar-t {
+        flex-direction: column;
+    }
+
+    .solar-t-left {
+        flex-direction: column;
+    }
 
 
 
@@ -283,6 +292,7 @@ flex-direction: column;
     .section-text {
         margin-top: 20px;
     }
+
 }
 
 
@@ -293,9 +303,14 @@ flex-direction: column;
         overflow: hidden;
     }
 
-   .type-solar{
-    flex-direction: column;
-   }
+    .type-solar {
+        flex-direction: column;
+    }
+
+    .list_products {
+        margin: -18px;
+        padding: 12px;
+    }
 }
 
 
@@ -307,9 +322,10 @@ flex-direction: column;
     .overflow {
         overflow: hidden;
     }
-    .type-solar{
+
+    .type-solar {
         flex-direction: column;
-       }
+    }
 }
 
 /* i make a responsive view in tab i-paid-pro */
@@ -317,9 +333,9 @@ flex-direction: column;
     .overflow {
         overflow: hidden;
     }
-    .type-solar{
+
+    .type-solar {
         flex-direction: column;
-       }
+    }
 
 }
-

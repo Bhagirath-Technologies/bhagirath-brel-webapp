@@ -581,6 +581,7 @@ h6 {
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
+  width: 100%;
 }
 
 #about .about-col .icon {
@@ -2587,7 +2588,7 @@ video {
 
 .section-text {
   margin-top: 22px;
-  
+
 }
 
 /* make a business partner section  */

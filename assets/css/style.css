@@ -1814,8 +1814,8 @@ video {
   }
 
   .card-box1 {
-    margin-top: 123px;
-    margin-bottom: -100px;
+    margin-top: 230px;
+    margin-bottom: -211px !important;
   }
 
   .hero_img2 {
@@ -2585,6 +2585,9 @@ video {
     margin-top: 22px;
   }
 
+  .title_first {
+    padding: 19px;
+  }
 
 
 }
@@ -2732,4 +2735,18 @@ video {
 
 .texting {
   display: inline-block;
+}
+
+@media only screen and (max-width:319px) {
+  .icon-div {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    right: 75.5%;
+    top: 40%;
+    width: 80px;
+    z-index: 10;
+  }
 }

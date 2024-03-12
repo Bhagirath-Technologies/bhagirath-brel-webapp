@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Solar Caluclater | Bhagirath Renewable Energy </title>
-
+  <title>BREL</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
@@ -18,9 +17,57 @@
 </head>
 
 <body>
-  <!-- header -->
-  <div class="headerdiv"></div>
-  <!-- header -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary overflow-hidden ">
+    <div class="container-fluid">
+      <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
+      <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
+        aria-controls="navbarSupportedContent">
+        <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="About.html">About us</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="service.html">Services<a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="OurProducts.html">Our Products</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="pmc.html">PMC</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="Contactus.html">Contact us</a>
+            </li>
+            <li class="nav-item nav_items">
+              <a class="nav-link px-3" href="Solar Calculater.html">Solar Calculator</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="middle">
+        <a target="_blank" href="https://drive.google.com/file/d/1tzB2WE0N_-2tanbbPCh8yKOXqN28aOtF/view?usp=sharing"
+          class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
+            class="bi bi-arrow-right m-2"></i>
+
+        </a>
+      </div>
+    </div>
+    </div>
+  </nav>
+  </section>
   <section class="flex-column d-block ">
     <div class="hero_img bg_img5">
       <h2 class="breadcrums_title ms-4">Solar Calculator</h2>
@@ -64,11 +111,11 @@
         </li>
       </ul>
     </div> -->
-    
-    <div class="text-section">
-    <h4 class="text-center mt-5">Ready to Switch to Solar? Calculate your requirement.</h4>
-  </div>
 
+
+  <section class="text-element-color mt-5">
+    <h4 class="text-center bgcolor-change">Ready to Switch to Solar? Calculate your requirement.</h4>
+  </section>
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-6">
@@ -80,42 +127,41 @@
             ">
           <form id="conversionForm">
             <br />
-            <div class="form-group d-flex" style="margin-bottom: 20px;">
-              <label class="mt-1" for="Name">Name:-</label>
-              <input type="text" placeholder="Enter your name" class="form-control mx-auto" id="nameInput" required ;
-                style="width: 84%;" />
+            <div class="form-group d-flex mb-4">
+              <Label>Name:-</Label>
+              <input type="text" placeholder="Enter your name" class="form-control mx-auto ms-3" id="nameInput"
+                required; />
             </div>
-            <div class="form-group d-flex" style="margin-bottom: 20px">
-              <label for="">Number:-</label>
-              <input type="tel" placeholder="Enter your phone number" class="form-control mx-auto" id="phoneInput"
-                required style="width: 86%" ; />
+            <div class="form-group d-flex mb-4">
+              <Label>Number:-</Label>
+              <input type="tel" placeholder="Enter your phone number" class="form-control mx-auto ms-3" id="phoneInput"
+                required; />
             </div>
-            <div class="form-group d-flex" style="margin-bottom: 20px">
-              <Label>Address:-</Label>
-              <input type="email" placeholder="Enter your email address" class="form-control mx-auto" id="emailInput"
-                required style="width: 86%" ; />
+            <div class="form-group d-flex mb-4">
+              <Label>Email:-</Label>
+              <input type="email" placeholder="Enter your email address" class="form-control mx-auto ms-3"
+                id="emailInput" required />
             </div>
-            <div class="form-group d-flex" style="margin-bottom: 20px">
-              <label for="">city:-</label>
-              <input type="text" placeholder="Enter your city" class="form-control mx-auto" id="cityInput" required
-                style="width: 80%" ; />
+            <div class="form-group d-flex mb-4">
+                <label>city:-</label>
+              <input type="text" placeholder="Enter your city" class="form-control mx-auto ms-3"   id="cityInput" required ; />
             </div>
-            <div class="form-group d-flex" style="margin-bottom: 20px">
-              <label for="">Bill:-</label>
+            <div class="form-group d-flex mb-4">
+              <label>Bill Amount</label>
               <input type="number" placeholder="Enter Monthly Bill Amount (INR):" class="form-control mx-auto"
-                id="inrInput" required style="width: 80%" ; />
+                id="inrInput" required />
+            </div>
+            <div class="text-center middle ">
+              <button type="button" id="conversionForm" class="bg_background bg btn btn-lg btn1 " data-toggle="modal"
+                data-target="#resultModal">
+                Calculate Now
+              </button>
             </div>
 
           </form>
         </div>
       </div>
     </div>
-  </div>
-  <div class="text-center mt-3">
-    <button type="button" id="conversionForm" class="bg_background bg btn btn-lg btn1" data-toggle="modal"
-      data-target="#resultModal">
-      Calculate Now
-    </button>
   </div>
   <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel"
     aria-hidden="true">
@@ -137,67 +183,134 @@
   </div>
 
 
-  <!-- footer -->
-  <div class="footerdiv"></div>
-  <!-- footer -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer id="footer" class="mt-5">
+    <div class="footer-top justify-content-between align-content-center">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <div class="overlay">
+                <h3>Bhagirath Renewable Energy Private Limited</h3>
+                <p>
+                  Welcome to Bhagirath Renewable Energy Private Limited (BREL), where innovation meets sustainability.
+                  As a
+                  trailblazer in renewable energy, we are dedicated to providing cutting-edge solutions in the realm of
+                  solar
+                  power.
+                </p>
+              </div>
+            </div>
+          </div>
 
-  <script>
-    $(document).ready(function () {
-      function billToKW(inr) {
-        return inr * 0.0008928571428571428;
-      }
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="About.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service.html">Services</a></li>
+            </ul>
+          </div>
 
-      $("#conversionForm button").on("click", function () {
-        var name = $("#nameInput").val();
-        var phone = $("#phoneInput").val();
-        var email = $("#emailInput").val();
-        var city = $("#cityInput").val();
-        var inr = parseFloat($("#inrInput").val());
+          <div id="main-top" class="col-lg-2 col-md-6  footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="OurProducts.html">Our products</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Contactus.html">Contact us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Solar Calculater.html">Solar Calculater</a></li>
+            </ul>
+          </div>
 
-        if (!isNaN(inr)) {
-          var kw = billToKW(inr);
-          $("#resultText").html(
-            "<strong>Hi, </strong> " +
-            name +
-            "<br><br><strong>Monthly Bill Amount* :</strong> &#8377; " +
-            inr +
-            "<br><br><strong>You require 'KW' capacity plant to get maximum saving :</strong> " +
-            kw.toFixed(12)
-          );
-          $("#resultModal").modal("show");
-        } else {
-          $("#resultText").text(
-            "Please enter a valid amount in Indian Rupees (INR)."
-          );
-          $("#resultModal").modal("show");
+          <div class="col-lg-4 col-md-6 footer-newsletter fw-bold">
+            <h4>Our Newsletter</h4>
+            <p style="font-weight: bold; margin-left: 12px;">coming soon..</p>
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+          <div class="social-links d-flex mt-3">
+            <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="container fw-bold copyright-white">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Bhagirath Renewable Energy Private Limited</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a style="color: black; text-decoration: none; margin-left: 4px;"
+        href="Bhagirath tecnologies.com">Bhagirath Technologies Pvt Ltd.</a>
+    </div>
+    </footer>
+    <div id="whatsapp">
+      <a href="https://web.whatsapp.com/" target="_blank" id="toggle1" class="wtsapp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+    <div id="progress">
+      <span id="progress-value">&#8593;</span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      $(document).ready(function () {
+        function billToKW(inr) {
+          return inr * 0.0008928571428571428;
         }
+
+        $("#conversionForm button").on("click", function () {
+          var name = $("#nameInput").val();
+          var phone = $("#phoneInput").val();
+          var email = $("#emailInput").val();
+          var city = $("#cityInput").val();
+          var inr = parseFloat($("#inrInput").val());
+
+          if (!isNaN(inr)) {
+            var kw = billToKW(inr);
+            $("#resultText").html(
+              "<strong>Hi, </strong> " +
+              name +
+              "<br><br><strong>Monthly Bill Amount* :</strong> &#8377; " +
+              inr +
+              "<br><br><strong>You require 'KW' capacity plant to get maximum saving :</strong> " +
+              kw.toFixed(12)
+            );
+            $("#resultModal").modal("show");
+          } else {
+            $("#resultText").text(
+              "Please enter a valid amount in Indian Rupees (INR)."
+            );
+            $("#resultModal").modal("show");
+          }
+        });
+
+        $("#closeModal").click(function () {
+          $("#resultModal").modal("hide");
+        });
       });
 
-      $("#closeModal").click(function () {
-        $("#resultModal").modal("hide");
-      });
-    });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-<script>
-  $(function () {
-
-    $(".headerdiv").load("header.html");
-    $(".footerdiv").load("footer.html");
-
-  });
-</script>

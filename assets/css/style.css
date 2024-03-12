@@ -2588,7 +2588,9 @@ video {
   .title_first {
     padding: 19px;
   }
-
+  .test-heading {
+    margin-top: 130px !important;
+  }
 
 }
 
@@ -2752,5 +2754,9 @@ video {
 }
 
 
-
+.text-element-color h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--main-color);
+}
 

@@ -2767,3 +2767,9 @@ video {
   font-weight: bold;
   color: var(--main-color);
 }
+
+#Faq {
+  position: relative;
+  top: 123px;
+  margin-bottom: 180px;
+}

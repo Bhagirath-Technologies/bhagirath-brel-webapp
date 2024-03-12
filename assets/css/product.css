@@ -7,10 +7,11 @@
     padding-left: 20px;
     padding-right: 20px;
 
+
 }
 
 .solar-product {
-    margin-top: -100px;
+    margin-top: -160px;
 }
 
 .solar-product-right p {
@@ -53,7 +54,7 @@
 .ty {
     margin-top: -50px;
     /* background-color: #29516a; */
-    
+
 }
 
 .type-solar {
@@ -127,7 +128,7 @@
     /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
-    background: rgba(171, 183, 183, .4 );
+    background: rgba(171, 183, 183, .4);
     position: relative;
     top: 30%;
 }
@@ -177,7 +178,7 @@
     justify-content: space-around;
     padding: 20px 20px;
     gap: 15px;
-    margin-top: -40px;
+    margin-top: -90px;
     margin-bottom: -60px;
 
 }
@@ -190,12 +191,14 @@
     color: #9b9d68;
 }
 
-.LEFT-Solar-On-Grid img{
+.LEFT-Solar-On-Grid img {
     height: 450px;
     width: 550px;
 }
 
-
+.solar-off {
+    margin-top: -123px;
+}
 
 /* make a Solar-Off-Grid-System section  */
 
@@ -219,7 +222,8 @@
     text-align: center;
     color: #0000FF;
 }
-.left-Solar-Off-Grid img{
+
+.left-Solar-Off-Grid img {
     height: 500px;
     width: 570px;
 }
@@ -246,11 +250,13 @@
 
     .solar-product-right p {
         text-align: justify;
+        margin-top: 60px;
     }
 
     .solar-product-left img {
         padding-right: 20px;
         padding-left: 20px;
+
     }
 
     /* make a type of solar responsive  */
@@ -305,18 +311,21 @@
     .section-text {
         margin-top: 20px;
     }
-.LEFT-Solar-On-Grid img{
-    height: 350px;
-    width: 450px;
-}
-.left-Solar-Off-Grid img{
-    height: 350px;
-    width: 450px;
-    
-}
-.Solar-Off-Grid-System{
-    /* height: 120vh; */
-}
+
+    .LEFT-Solar-On-Grid img {
+        height: 350px;
+        width: 450px;
+    }
+
+    .left-Solar-Off-Grid img {
+        height: 350px;
+        width: 450px;
+
+    }
+
+    .Solar-Off-Grid-System {
+        /* height: 120vh; */
+    }
 
 
 
@@ -338,6 +347,26 @@
         margin: -18px;
         padding: 12px;
     }
+
+    .ty {
+        margin-top: 60px;
+    }
+
+    .solar-product {
+        margin-top: -87 px
+    }
+
+    .solar-product-left img {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: -123px;
+
+    }
+
+    .solar-off {
+        margin-top: 100px;
+    }
+
 }
 
 

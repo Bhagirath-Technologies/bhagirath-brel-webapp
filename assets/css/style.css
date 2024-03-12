@@ -2588,6 +2588,7 @@ video {
   .title_first {
     padding: 19px;
   }
+
   .test-heading {
     margin-top: 130px !important;
   }
@@ -2695,13 +2696,20 @@ video {
   width: 300px;
 }
 
+.Quality-Assurance {
+  margin-top: -50px;
+  margin-bottom: -123px;
+}
+
 /* tab responsive work  */
 @media only screen and (max-width: 768px) {
   .business-partner {
     padding-top: 100px;
   }
 
-
+  .Quality-Assurance {
+    margin-top: 50px;
+  }
 
 }
 
@@ -2759,4 +2767,3 @@ video {
   font-weight: bold;
   color: var(--main-color);
 }
-

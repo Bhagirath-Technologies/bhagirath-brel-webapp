@@ -52,6 +52,10 @@
 
 .ty {
     margin-top: -50px;
+    background-color: #29516a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .type-solar {
@@ -125,7 +129,7 @@
     /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
-    background: rgba(82, 136, 217, .3);
+    background: rgba(171, 183, 183, .4 );
     position: relative;
     top: 30%;
 }
@@ -164,8 +168,8 @@
 
 
 .solar-pump-left img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 450px;
 }
 
 /* make a Solar On-Grid sectioin  */
@@ -174,7 +178,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
-    gap: 20px;
+    gap: 15px;
     margin-top: -40px;
     margin-bottom: -60px;
 
@@ -188,6 +192,13 @@
     color: #9b9d68;
 }
 
+.LEFT-Solar-On-Grid img{
+    height: 450px;
+    width: 550px;
+}
+
+
+
 /* make a Solar-Off-Grid-System section  */
 
 .Solar-Off-Grid-System {
@@ -195,7 +206,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px 20px;
-    gap: 20px;
+    gap: 15px;
 }
 
 .right-Solar-Off-Grid p {
@@ -209,6 +220,10 @@
 .solar-off h2 {
     text-align: center;
     color: #0000FF;
+}
+.left-Solar-Off-Grid img{
+    height: 500px;
+    width: 570px;
 }
 
 .on-grid h2 {
@@ -292,6 +307,20 @@
     .section-text {
         margin-top: 20px;
     }
+.LEFT-Solar-On-Grid img{
+    height: 350px;
+    width: 450px;
+}
+.left-Solar-Off-Grid img{
+    height: 350px;
+    width: 450px;
+    
+}
+.Solar-Off-Grid-System{
+    /* height: 120vh; */
+}
+
+
 
 }
 

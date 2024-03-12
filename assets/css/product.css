@@ -410,7 +410,7 @@
     padding-left: 0.2em;
 }
 
-.card {
+.card_container {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
@@ -430,7 +430,7 @@
     width: 100px;
 }
 
-.card {
+.card_container {
     border: 100px;
     box-shadow: 10px 5px 5px black
 }
@@ -465,22 +465,13 @@
         margin-top: 23px;
     }
 
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: 150vw
-    }
-
-    .carousel-control-prev {
-        margin-left: -30px;
-    }
-
-    .carousel-control-next {
-        margin-right: -34px;
+    .carousel-control-prev,.carousel-control-next {
+        margin-top: 123px;
     }
 }
 
 @media (min-width: 768px) {
-    .carousel-inner {
+    .carousel-card {
         padding: 1em;
     }
 

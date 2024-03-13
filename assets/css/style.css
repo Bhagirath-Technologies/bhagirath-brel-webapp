@@ -2523,7 +2523,11 @@ video {
     margin-top: 22px;
   }
 
-
+  #footer .footer-top .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .test-heading {
     margin-top: 130px !important;

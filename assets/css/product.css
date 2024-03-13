@@ -328,10 +328,18 @@
         /* height: 120vh; */
     }
 
-
-
+    .background-content P {
+        padding: 7px 1px !important;
+        width: 46% !important;
+    }
 }
 
+@media only screen and (max-width:576px) {
+    .background-content p {
+        padding: 7px 1px !important;
+        width: 46% !important;   padding: 25px 25px;
+    }
+}
 
 /* i make a responsive view in tab -i-paid-mini  */
 
@@ -466,7 +474,8 @@
         margin-top: 23px;
     }
 
-    .carousel-control-prev,.carousel-control-next {
+    .carousel-control-prev,
+    .carousel-control-next {
         margin-top: 123px;
     }
 }

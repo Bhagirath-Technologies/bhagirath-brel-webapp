@@ -337,7 +337,8 @@
 @media only screen and (max-width:576px) {
     .background-content p {
         padding: 7px 1px !important;
-        width: 46% !important;   padding: 25px 25px;
+        width: 46% !important;
+        padding: 25px 25px;
     }
 }
 
@@ -441,7 +442,7 @@
 
 .card_container {
     border: 100px;
-    box-shadow: 10px 5px 5px black
+    /* box-shadow: 10px 5px 5px black */
 }
 
 .carousel-control-prev,

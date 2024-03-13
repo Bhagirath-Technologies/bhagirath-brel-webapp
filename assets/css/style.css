@@ -400,7 +400,7 @@ h6 {
     url("../img/bg-images/home/hero-section/jpeg-optimizer_Home_03.webp");
 }
 
-/* .bg_img_4 {
+
   background-image: url(/assets/images/desktopitems.webp);
 } */
 .carousel-inner {
@@ -464,7 +464,6 @@ h6 {
 }
 
 .carousel .carousel-item:before {
-  /* background: rgba(0, 0, 0, 0.6); */
   content: " ";
   height: 100%;
   left: 0;
@@ -800,7 +799,6 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  /* background: var(--DryGrass-color); */
   color: var(--DryGrass-color);
   text-decoration: none;
 }
@@ -881,13 +879,9 @@ h6 {
   text-decoration: none;
 }
 
-/* #footer .footer-top .footer-links ul a:hover {
-  color: var(--DryGrass-color);
-} */
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  /* background: var(--white-color); */
   padding: 6px 10px;
   position: relative;
   border-radius: 4;
@@ -1646,57 +1640,6 @@ h6 {
   list-style: none;
 }
 
-/* .icons-social {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.icons-social ul {
-  margin: 0;
-  padding: 0;
-}
-
-.list-icons li {
-  list-style: none;
-  margin: 20px 0;
-}
-
-.list-icons li a {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 25px;
-  color: var(--white-color);
-  background-color: var(--main-color);
-  display: block;
-  text-align: center;
-  position: relative;
-}
-
-.list-icons li a span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-  height: 50px;
-  color: #000;
-  background-color: var(--DryGrass-color);
-  font-size: 15px;
-  z-index: -1;
-  opacity: 0;
-  backface-visibility: hidden;
-  transition: 0.5s;
-}
-
-.list-icons li a:hover span {
-  opacity: 1;
-  backface-visibility: visible;
-  left: 60px;
-} */
-
-
 .video-container {
   max-width: 800px;
   margin: 50px auto;
@@ -2299,11 +2242,6 @@ video {
     margin: auto;
     position: relative;
   }
-
-  /* .col-12 {
-    flex: 0 0 auto;
-    width: 100%;
-} */
 }
 
 .image_card {
@@ -2334,7 +2272,6 @@ video {
     position: relative;
     z-index: -1;
   }
-
 }
 
 

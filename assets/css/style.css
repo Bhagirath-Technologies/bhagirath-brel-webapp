@@ -872,6 +872,7 @@ h6 {
   font-weight: bold;
   text-decoration: none;
 }
+
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   padding: 6px 10px;
@@ -1388,10 +1389,12 @@ h6 {
   width: 100%;
   z-index: -1;
 }
+
 .border-elementer img {
   border-radius: 10px;
   width: 100%;
 }
+
 .hero_img1 {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -1400,6 +1403,7 @@ h6 {
   position: relative;
   z-index: 1;
 }
+
 .hero_img2 {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -1409,6 +1413,7 @@ h6 {
   padding-top: 10%;
   z-index: 1;
 }
+
 @media only screen and (max-width: 300px) {
   .hero_img2 {
     background-position: 50%;
@@ -1425,6 +1430,7 @@ h6 {
   .hero_img2 {
     padding-top: 22px;
   }
+
   .hero_img2 {
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1434,34 +1440,41 @@ h6 {
     padding-top: 10%;
     z-index: 1;
   }
+
   .choose-heading {
     padding-top: 83px;
   }
+
   .element-top-section {
     position: relative;
     top: -100px;
   }
+
   .item {
     background-color: var(--main-color);
     -webkit-transition: all 0.5s ease 0s;
     margin-top: 10px !important;
   }
+
   .item .heading-service,
   .item .paragraph-service {
     color: #fff;
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
   }
+
   .item .item,
   .item span {
     background-color: white;
     border-radius: 50%;
   }
+
   .item .item,
   .item span.icon_service i {
     position: relative;
     bottom: 1px;
   }
+
   .item .item,
   .item span.icon_service {
     display: block;
@@ -1472,6 +1485,7 @@ h6 {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
   }
+
   .breadcrums_title {
     color: var(--white-color);
     text-align: center;
@@ -1491,6 +1505,7 @@ h6 {
   width: 100%;
   z-index: -1;
 }
+
 .heading-solar {
   color: var(--white-color);
   text-align: center;
@@ -1501,6 +1516,7 @@ h6 {
   line-break: auto;
   text-overflow: inherit;
 }
+
 .heading-solar h2 {
   font-size: 35px;
   font-weight: 500;
@@ -1509,6 +1525,7 @@ h6 {
   position: relative;
   top: -112px;
 }
+
 .heading-solar p {
   font-size: 18px;
   word-spacing: 2px;
@@ -1516,6 +1533,7 @@ h6 {
   position: relative;
   top: -110px;
 }
+
 .choose-heading {
   color: var(--white-color);
   text-align: center;
@@ -1526,6 +1544,7 @@ h6 {
   line-break: auto;
   text-overflow: inherit;
 }
+
 .choose-heading h2 {
   font-size: 35px;
   font-weight: 500;
@@ -1533,6 +1552,7 @@ h6 {
   letter-spacing: 2px;
   margin-top: -134px;
 }
+
 .choose-heading p {
   font-size: 18px;
   word-spacing: 2px;
@@ -1540,6 +1560,7 @@ h6 {
   letter-spacing: 2px;
   margin: auto;
 }
+
 .card-element1 {
   position: relative;
   top: -20vw;
@@ -1547,13 +1568,16 @@ h6 {
   color: var(--main-color);
   margin-top: 16px;
 }
+
 #card-overflow {
   overflow-x: hidden;
 }
+
 .card-box1 {
   position: relative;
   top: -210px;
 }
+
 .element-icon i {
   width: 1em;
   height: 1em;
@@ -1563,45 +1587,56 @@ h6 {
   font-size: 42px;
   color: var(--main-color);
 }
+
 .card-bg-color {
   background-color: var(--main-color);
   color: var(--white-color);
 }
+
 .our-Provider-service {
   font-size: 25px;
   font-weight: 500;
   margin-top: 12px;
 }
+
 .service-list li {
   list-style-type: none;
   line-height: 30px;
 }
+
 .paragraph-section {
   position: relative;
   top: -10px;
   text-align: justify;
 }
+
 .text-adjacent {
   margin-top: -73px;
 }
+
 .text-adjacent h3 {
   margin-left: 40px;
 }
+
 .list_products {
   margin: 22px;
 }
+
 .list_products li {
   margin: 10px;
   list-style: none;
 }
+
 .video-container {
   max-width: 800px;
   margin: 50px auto;
 }
+
 video {
   width: 100%;
   display: block;
 }
+
 .consulting-image {
   display: block;
   align-items: center;
@@ -1914,6 +1949,7 @@ video {
   word-break: keep-all;
   line-height: 25px;
 }
+
 .timeline {
   position: relative;
   margin: auto
@@ -2115,8 +2151,8 @@ video {
   .cards_image .animate-icons {
     position: relative;
     width: 42px;
-    left: 7px;
-    top: 7px;
+    left: 14px;
+    top: 15px;
     z-index: 10
   }
 
@@ -2218,6 +2254,7 @@ video {
     z-index: -1;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .cards_image {
     padding-left: 80px;
@@ -2238,6 +2275,7 @@ video {
     z-index: -1;
   }
 }
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .icon-div {
     background: #fff;
@@ -2457,7 +2495,7 @@ video {
     margin-top: 22px;
   }
 
-  #footer .footer-top .social-links{
+  #footer .footer-top .social-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2646,4 +2684,19 @@ video {
   position: relative;
   top: 123px;
   margin-bottom: 180px;
+}
+
+@media only screen and (max-width:985px) {
+  .icon-div {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    left: -4vw;
+    top: 40%;
+    width: 80px;
+    z-index: 10;
+  }
+
 }

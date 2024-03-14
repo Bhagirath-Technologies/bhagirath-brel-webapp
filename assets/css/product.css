@@ -6,8 +6,6 @@
     padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
-
-
 }
 
 .solar-product {
@@ -16,13 +14,11 @@
 
 .solar-product-right p {
     text-align: justify;
-    /* padding-left: 20px; */
 }
 
 .textchange {
     text-align: center;
     color: #29516a;
-
 }
 
 .solar-product-right h5 {
@@ -32,8 +28,6 @@
 .solar-product-left img {
     height: 400px;
     width: 450px;
-    /* background-color: red; */
-
 }
 
 .solar-p h2 {
@@ -61,7 +55,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: whitesmoke; */
 }
 
 .solar-t {
@@ -75,9 +68,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
-
 
 .type-one img {
     height: 450px;
@@ -94,12 +84,11 @@
     background-color: rgb(223, 236, 247);
     padding: 20px;
     margin-bottom: 50px;
-    /* text-align: justify; */
+    
 }
 
 .list_products {
     margin: 22px;
-    /* text-align: justify; */
 }
 
 .list_products li {
@@ -112,7 +101,6 @@
 .background-img {
     background-image: url(../img/bg-images/products-img/jpeg-optimizer_07.webp);
     height: 80vh;
-    /* width: 100px; */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -120,12 +108,6 @@
 .background-content {
     width: 750px;
     padding: 30px 30px 50px;
-    /* margin: auto; */
-    /* margin-top: 100px; */
-    /* font-size: 20px; */
-    /* line-height: 1.5; */
-    /* letter-spacing: 1px; */
-    /* text-align: left; */
     border-radius: 6px;
     text-align: justify;
     background: rgba(171, 183, 183, .4);
@@ -280,10 +262,6 @@
         flex-direction: column;
     }
 
-
-
-
-
     .overflow {
         overflow: hidden;
     }
@@ -322,10 +300,6 @@
         height: 350px;
         width: 450px;
 
-    }
-
-    .Solar-Off-Grid-System {
-        /* height: 120vh; */
     }
 
     .background-content P {

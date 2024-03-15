@@ -2106,6 +2106,11 @@ video {
 .text-margin {
   position: relative;
   right: 42px;
+  margin-left: 22px;
+}
+
+.text-margin1 {
+  margin-right: 43px;
 }
 
 @media only screen and (max-width:1000px) {
@@ -2604,7 +2609,7 @@ video {
   padding-right: 20px;
   gap: 30px;
   padding-bottom: 100px;
-  
+
 }
 
 .QA-right img {

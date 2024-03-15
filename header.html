@@ -19,58 +19,79 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top overflow-hidden ">
-        <div class="container-fluid">
+    <header class="header_section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-header ">
+          <div class="container-fluid">
             <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
             <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
-                aria-controls="navbarSupportedContent">
-                <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
+              aria-controls="navbarSupportedContent">
+              <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
             </button>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body ">
-                    <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="About.html">About us</a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="service.html">Services<a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="OurProducts.html">Our Products</a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="pmc.html">PMC</a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="Contactus.html">Contact us</a>
-                        </li>
-                        <li class="nav-item nav_items">
-                            <a class="nav-link px-3" href="SolarCalculater.html">Solar Calculator</a>
-                        </li>
-                    </ul>
-                </div>
-
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body ">
+                <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
+                  <li class="nav-item nav_items">
+                    <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item nav_items">
+                    <div class="containeR_drop">
+                      <div class="dropdown">
+                        <a class="nav-link px-3" href="About.html">
+                          About us
+                          <i class="fa-solid fa-angle-down down-drop"></i>
+                          <a>
+                            <div class="dropdown-content">
+                              <a href="About.html#scrollbar1">Bussiness partners</a>
+                              <a href="About.html#scrollbar2">Our Team</a>
+                              <a href="About.html#scrollbar3">FAQ</a>
+                            </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item nav_items">
+                    <a class="nav-link px-3" href="service.html">Services<a>
+                  </li>
+                  <li class="nav-item nav_items">
+                    <div class="containeR_drop">
+                      <div class="dropdown">
+                        <a class="nav-link px-3" href="OurProducts.html">
+                          Our Products
+                          <i class="fa-solid fa-angle-down down-drop"></i>
+                          <a>
+                            <div class="dropdown-content">
+                              <a href="About.html#scrollbar1">Solar Panels</a>
+                              <a href="About.html#scrollbar2">Solar Street Lights</a>
+                              <a href="About.html#scrollbar3">Solar on-off Grid System</a>
+                            </div>
+                      </div>
+                    </div>
+                  </li>
+    
+                  <li class="nav-item nav_items">
+                    <a class="nav-link px-3" href="Contactus.html">Contact us</a>
+                  </li>
+                  <li class="nav-item nav_items">
+                    <a class="nav-link px-3" href="SolarCalculater.html">Solar Calculator</a>
+                  </li>
+                </ul>
+              </div>
+    
             </div>
             <div class="middle">
-                <a target="_blank"
-                    href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download=" BREL Broucher"
-                    class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
-                        class="bi bi-arrow-right m-2"></i>
-
-                </a>
+              <a target="_blank" href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download="BREL Broucher"
+                class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
+                  class="bi bi-arrow-right m-2"></i>
+              </a>
             </div>
-        </div>
-        </div>
-    </nav>
+          </div>
+          </div>
+        </nav>
+      </header>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

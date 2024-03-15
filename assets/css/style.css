@@ -270,6 +270,56 @@ h6 {
   }
 }
 
+
+.header_section {
+  position: relative;
+  z-index: 2;
+}
+
+.nav-header ul {
+  list-style-type: none;
+  margin-right: 123px;
+  padding: 0;
+  display: flex;
+}
+
+
+.nav-header a {
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.down-drop {
+  font-size: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
 #progress {
   background-color: var(--DryGrass-color);
   position: fixed;
@@ -373,6 +423,7 @@ h6 {
 .bg_img_1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/bg-images/home/hero-section/jpeg-optimizer_Home_01.webp");
+
 
 }
 
@@ -965,6 +1016,16 @@ h6 {
 
 .bg_img5 {
   background-image: url("../img/bg-images/SolarCalculator/solar_calulater.webp");
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  /* Fixed position to cover the viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
 }
 
 .bg_img6 {
@@ -2106,11 +2167,11 @@ video {
 .text-margin {
   position: relative;
   right: 42px;
-  margin-left: 22px;
+  margin-left: 30px;
 }
 
 .text-margin1 {
-  margin-right: 43px;
+  margin-right: 33px;
 }
 
 @media only screen and (max-width:1000px) {
@@ -2122,6 +2183,7 @@ video {
 
   .text-margin1 {
     margin-top: 30px;
+
   }
 }
 
@@ -2445,6 +2507,7 @@ video {
 @media only screen and (max-width: 430px) {
   .pmc-main {
     flex-direction: column;
+    margin-top: 66px;
 
   }
 
@@ -2690,7 +2753,7 @@ video {
   color: var(--main-color);
 }
 
-#Faq {
+.Faq {
   position: relative;
   top: 123px;
   margin-bottom: 180px;

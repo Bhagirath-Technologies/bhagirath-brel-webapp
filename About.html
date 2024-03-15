@@ -19,57 +19,79 @@
 </head>
 
 <body>
+  <header class="header_section">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-header ">
+      <div class="container-fluid">
+        <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
+        <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
+          aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
+              <li class="nav-item nav_items">
+                <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item nav_items">
+                <div class="containeR_drop">
+                  <div class="dropdown">
+                    <a class="nav-link px-3" href="About.html">
+                      About us
+                      <i class="fa-solid fa-angle-down down-drop"></i>
+                      <a>
+                        <div class="dropdown-content">
+                          <a href="About.html#scrollbar1">Bussiness partners</a>
+                          <a href="About.html#scrollbar2">Our Team</a>
+                          <a href="About.html#scrollbar3">FAQ</a>
+                        </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav_items">
+                <a class="nav-link px-3" href="service.html">Services<a>
+              </li>
+              <li class="nav-item nav_items">
+                <div class="containeR_drop">
+                  <div class="dropdown">
+                    <a class="nav-link px-3" href="OurProducts.html">
+                      Our Products
+                      <i class="fa-solid fa-angle-down down-drop"></i>
+                      <a>
+                        <div class="dropdown-content">
+                          <a href="About.html#scrollbar1">Solar Panels</a>
+                          <a href="About.html#scrollbar2">Solar Street Lights</a>
+                          <a href="About.html#scrollbar3">Solar on-off Grid System</a>
+                        </div>
+                  </div>
+                </div>
+              </li>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary overflow-hidden ">
-    <div class="container-fluid">
-      <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
-      <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
-        aria-controls="navbarSupportedContent">
-        <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
-      </button>
-      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <li class="nav-item nav_items">
+                <a class="nav-link px-3" href="Contactus.html">Contact us</a>
+              </li>
+              <li class="nav-item nav_items">
+                <a class="nav-link px-3" href="SolarCalculater.html">Solar Calculator</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
-        <div class="offcanvas-body ">
-          <ul class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3">
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="About.html">About us</a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="service.html">Services<a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="OurProducts.html">Our Products</a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="pmc.html">PMC</a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="Contactus.html">Contact us</a>
-            </li>
-            <li class="nav-item nav_items">
-              <a class="nav-link px-3" href="SolarCalculater.html">Solar Calculator</a>
-            </li>
-          </ul>
+        <div class="middle">
+          <a target="_blank" href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download="BREL Broucher"
+            class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
+              class="bi bi-arrow-right m-2"></i>
+          </a>
         </div>
-
       </div>
-      <div class="middle">
-        <a target="_blank" href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download="BREL Brouchers"
-          class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
-            class="bi bi-arrow-right m-2"></i>
-
-        </a>
       </div>
-    </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
   </section>
   <section class="flex-column d-block ">
     <div class="hero_img bg_img1">
@@ -176,10 +198,10 @@
 
   <!-- pradhumn make our business partner section  -->
   <section class="business-partner">
-    
 
 
-    <div class="text_content test-container" style="position: relative; top: 7px;" ;>
+
+    <div id="scrollbar1" class="text_content test-container" style="position: relative; top: 7px;" ;>
       <h3 class="text-center mt-5 test-heading heading_section">“BUSINESS <div class="section-text">PARTNERS”</div>
       </h3>
     </div>
@@ -278,7 +300,7 @@
   </section>
 
 
-  <div class="text_content test-container mb-5" ;>
+  <div id="scrollbar2" class="text_content test-container mb-5" ;>
     <h3 class="text-center mt-5 heading_section">Our Team</h3>
   </div>
 
@@ -437,7 +459,7 @@
 
 
   </section>
-  <section id="Faq" class="py-3 mt-5">
+  <section id="scrollbar3" class="Faq py-3 mt-5">
     <div class="container">
       <div class="row justify-content-center align-items-center text-align">
         <div class="col-lg-6 text-center">

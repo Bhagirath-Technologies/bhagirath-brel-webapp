@@ -311,7 +311,6 @@ h6 {
   background-color: #f9f9f9;
   min-width: 240px;
   z-index: 1;
-  font-size: 10px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -327,6 +326,7 @@ h6 {
 
 .dropdown-content a {
   font-size: 18px !important;
+  line-height: 16px;
 
 }
 

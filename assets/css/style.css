@@ -270,6 +270,11 @@ h6 {
   }
 }
 
+@media only screen and(max-width:1163px) {
+  .adjacement-margin {
+    margin: 22px
+  }
+}
 
 .header_section {
   position: relative;
@@ -280,8 +285,9 @@ h6 {
   list-style-type: none;
   margin-right: 123px;
   padding: 0;
-  display: flex;
-  margin: 22px;
+  display: flex !important;
+  margin: auto;
+
 }
 
 

@@ -295,7 +295,7 @@ h6 {
   text-decoration: none;
 }
 
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
 }
@@ -333,9 +333,12 @@ h6 {
 .dropdown-content a:hover {
   background-color: var(--main-color);
   color: var(--white-color);
-  transition: all 0.3s ease-in;
+  transition: a
+  ll 0.3s ease-in;
 
 }
+ */
+
 
 
 
@@ -409,9 +412,28 @@ h6 {
   color: yellow;
 }
 
+
+
+.navbar a {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: space-between;
+  transition: .3s;
+  white-space: nowrap;
+}
+
+.dropdown-menu li a:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  transition: all 0.2s ease-in;
+}
+
 .nav-item a {
   font-size: 18px;
   font-weight: bold;
+  color: black;
 }
 
 .nav-item a:hover {

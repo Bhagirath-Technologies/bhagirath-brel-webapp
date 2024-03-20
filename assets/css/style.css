@@ -137,9 +137,6 @@ h6 {
     width: 123px;
   }
 
-  .dropmenu-removed {
-    
-  }
 
   .dropmenu-removed li {
     display: flex;
@@ -148,9 +145,15 @@ h6 {
   }
 }
 
-#section-target:hover{
-   color: var(--DryGrass-color);
+
+.element-heading {
+  margin-top: 40px;
 }
+
+#section-target:hover {
+  color: var(--DryGrass-color);
+}
+
 @media (max-width: 400px) {
   .carousel-caption1 {
     position: absolute !important;

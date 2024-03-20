@@ -22,13 +22,13 @@
 <body>
   <header class="header_section">
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-      <div class="container-fluid">
+      <div class="container-fluid hidesection navbar-collapse">
         <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
         <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
           aria-controls="navbarSupportedContent">
           <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
         </button>
-        <div class="offcanvas offcanvas-start  " tabindex="-1" id="offcanvasExample"
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
           aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
             <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
@@ -48,11 +48,11 @@
                     <i class="fa-solid fa-angle-down down-drop mt-1 ms1 section-icons"></i>
                   </a>
                   <ul class="dropdown-menu dropmenu-removed">
-                    <li><a class="text-decoration-none p-1 " href="About.html#scrollbar1">Bussiness
+                    <li><a class="text-decoration-none p-1 js-scroll-trigger" href="About.html#scrollbar1">Bussiness
                         partners</a></li>
-                    <li><a class="text-decoration-none p-1 " href="About.html#scrollbar2">Our Team</a>
+                    <li><a class="text-decoration-none p-1 js-scroll-trigger" href="About.html#scrollbar2">Our Team</a>
                     </li>
-                    <li><a class="text-decoration-none p-1 " href="About.html#scrollbar3">FAQ</a></li>
+                    <li><a class="text-decoration-none p-1 js-scroll-trigger" href="About.html#scrollbar3">FAQ</a></li>
                   </ul>
               </li>
               <li class="nav-item dropdown ms-3 nav_items">
@@ -133,7 +133,9 @@
       offset: 120,
     });
 
-
+    $('.js-scroll-trigger').click(function () {
+      $('.navbar-collapse').hide('show');
+    });
 
   </script>
 </body>

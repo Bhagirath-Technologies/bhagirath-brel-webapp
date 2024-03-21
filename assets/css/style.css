@@ -477,6 +477,9 @@ h6 {
   position: relative;
 }
 
+.dropdown-menu {
+  border: none;
+}
 
 
 .bg_style {

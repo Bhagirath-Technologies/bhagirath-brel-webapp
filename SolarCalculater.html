@@ -18,92 +18,81 @@
 
 
 
-  <header class="header_section">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <!-- new sample navbar starts  -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
         <a href="index.html"><img src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px"></a>
-        <button class="navbar-toggle" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas"
-          aria-controls="navbarSupportedContent">
-          <span class="navbar-toggler-icon d-lg-none navbar-butoon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-          aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
           <div class="offcanvas-header">
             <img class="offcanvas-title" src="./assets/img/icons/Catalog BREL LOGO.webp" alt="" width="172px">
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body ">
-            <ul
-              class="navbar-nav d-flex  align-items-center justify-content-center flex-xl-grow-1 pe-3 adjacement-margin">
-              <li class="nav-item nav_items">
-                <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="header.html">Home</a>
               </li>
-              <li class="nav-item dropdown nav_items" >
-                <a  id="set-container"  href="About.html" role="button" class="text-decoration-none" data-bs-toggle="dropdown"
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  <a id="section-target">
-                    About us
-                    <i class="fa-solid fa-angle-down down-drop mt-1 ms1 section-icons"></i>
-                  </a>
-                  <ul class="dropdown-menu dropmenu-removed">
-                    <li><a class="text-decoration-none p-1" href="About.html#scrollbar1">Bussiness partners</a></li>
-                    <li><a class="text-decoration-none p-1" href="About.html#scrollbar2">Our Team</a></li>
-                    <li><a class="text-decoration-none p-1" href="About.html#scrollbar3">FAQ</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item dropdown ms-3 nav_items">
-                <a id="set-container" href="service.html" role="button" class="text-decoration-none" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <a id="section-target">
-                    Services
-                    <i class="fa-solid fa-angle-down down-drop mt-1 ms-1 section-icons"></i>
-                  </a>
+                  About Us
                 </a>
-                <ul class="dropdown-menu dropmenu-removed">
-                  <li><a class="text-decoration-none p-1" href="service.html#sericeclick1">Services</a></li>
-                  <li><a class="text-decoration-none p-1" href="service.html#sericeclick2">Project Management
-                      Consultancy</a></li>
-                  <li><a class="text-decoration-none p-1" href="service.html#sericeclick3">QualityAssurance</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown ms-3 nav_items" >
-                <a id="set-container" href="OurProducts.html" role="button" class="text-decoration-none" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <a id="section-target">
-                    Our Products
-                    <i class="fa-solid fa-angle-down down-drop  mt-1 ms-1 section-icons"></i>
-                  </a>
-                </a>
-                <ul class="dropdown-menu dropmenu-removed">
-                  <li><a class="text-decoration-none p-1" href="OurProducts.html#dropclick1">solar panel</a></li>
-                  <li><a class="text-decoration-none p-1" href="OurProducts.html#dropclick2">Solar Street Lights</a>
-                  </li>
-                  <li><a class="text-decoration-none p-1" href="OurProducts.html#dropclick3">Solar on-off-Grid
-                      System</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="About.html#scrollbar1">Our Team</a></li>
+                  <li><a class="dropdown-item" href="About.html#scrollbar2">Bussiness partners</a></li>
+                  <li><a class="dropdown-item" href="About.html#scrollbar3">FAQ</a></li>
                 </ul>
               </li>
 
-              <li class="nav-item nav_items">
-                <a class="nav-link px-3" href="Contactus.html">Contact us</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="service.html#sericeclick1">Services</a></li>
+                  <li><a class="dropdown-item" href="service.html#sericeclick2">Project Management Consultancy</a></li>
+                  <li><a class="dropdown-item" href="service.html#sericeclick3">Quality Assurance</a></li>
+                </ul>
               </li>
-              <li class="nav-item nav_items">
-                <a class="nav-link px-3" href="SolarCalculater.html">Solar Calculator</a>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="OurProducts.html#dropclick1">Solar Panels</a></li>
+                  <li><a class="dropdown-item" href="OurProducts.html#dropclick2">Solar Street Lights</a></li>
+                  <li><a class="dropdown-item" href="OurProducts.html#dropclick3">Solar On-Of Grid System</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contactus.html">Contactus</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="SolarCalculater.html">SolarCalculator</a>
               </li>
             </ul>
+            <div class="middle">
+              <a target="_blank" href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download="BREL Broucher"
+                class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
+                  class="bi bi-arrow-right m-2"></i>
+              </a>
+            </div>
           </div>
-
         </div>
-        <div class="middle">
-          <a target="_blank" href="./assets/img/bg-images/home/Brouchers/BREL Brochure.pdf" download="BREL Broucher"
-            class="bg_background btn1 rounded-0 py-3 px-lg-2 d-none d-lg-block">Get Broucher<i
-              class="bi bi-arrow-right m-2"></i>
-          </a>
-        </div>
-      </div>
       </div>
     </nav>
   </header>
-
   </section>
   <section class="flex-column d-block ">
     <div class="hero_img bg_img5">

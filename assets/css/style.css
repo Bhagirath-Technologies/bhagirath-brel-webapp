@@ -477,14 +477,7 @@ h6 {
   position: relative;
 }
 
-.nav-link:hover::after {
-  content: "";
-  height: 2px;
-  width: 100%;
-  background-color: var(--DryGrass-color);
-  display: block;
-  position: relative;
-}
+
 
 .bg_style {
   background-position: 50%;

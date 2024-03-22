@@ -112,7 +112,8 @@ h6 {
 
   .breadcrums_title {
     font-size: 40px;
-    align: center;
+    text-align: center;
+
   }
 }
 

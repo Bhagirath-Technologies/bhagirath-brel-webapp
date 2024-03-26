@@ -480,6 +480,10 @@ h6 {
   position: relative;
 }
 
+.nav_item {
+  padding: 10px;
+}
+
 .dropdown-menu {
   border: none;
 }

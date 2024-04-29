@@ -2972,7 +2972,7 @@ video {
 
 /* tab responsive work  */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 430px) {
 
   .business-partner {
     padding-top: 100px;
@@ -3187,7 +3187,7 @@ video {
   }
 
   #maintaince-construction {
-    max-width: 16rem !important;
+    max-width: 10rem !important;
   }
 
   .box-statement {

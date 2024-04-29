@@ -29,8 +29,6 @@
   --main-color: #29516a;
   --white-color: #fff;
   --DryGrass-color: #9b9d68;
-<<<<<<< HEAD
-=======
 
   --fade-white-: #F5F5F0;
   --pink-color--: #FEF8E9;
@@ -38,7 +36,6 @@
   --skyback-color--: #14405A0F;
   --dark-green--: #14405A;
   --white-gray--: #FFFFFF;
->>>>>>> b5b2857 (first commit)
 }
 
 h1 {
@@ -458,8 +455,6 @@ h6 {
 }
 
 
-<<<<<<< HEAD
-=======
 #dropdown-class {
   color: gray;
 }
@@ -477,7 +472,6 @@ h6 {
   color: var(--white-color);
   background-color: var(--main-color);
 }
->>>>>>> b5b2857 (first commit)
 
 .navbar a {
   align-items: center;
@@ -495,10 +489,7 @@ h6 {
   transition: all 0.2s ease-in;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> b5b2857 (first commit)
 .nav-item a {
   font-size: 18px;
 }
@@ -1152,8 +1143,6 @@ h6 {
   background-image: url("../img/bg-images/pmc/pmc_background.webp ");
 }
 
-<<<<<<< HEAD
-=======
 .bg_img10 {
   background-image: url("../img/bg-images/Resco/solar-_image.webp");
 }
@@ -1162,7 +1151,6 @@ h6 {
   background-image: url("../img/bg-images/Resco/solar_img.webp");
 }
 
->>>>>>> b5b2857 (first commit)
 .hero_img {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -2661,12 +2649,9 @@ video {
 
   /* make a business partner responsive  */
 
-<<<<<<< HEAD
-=======
   /* make a business partner responsive  */
 
 
->>>>>>> b5b2857 (first commit)
   .business-partner {
     padding-top: 150px;
   }
@@ -2703,8 +2688,6 @@ video {
     padding-top: 20px;
   }
 
-<<<<<<< HEAD
-=======
   /* make a new business partner responsive in mobile view  */
   .overflow {
     overflow: hidden;
@@ -2723,7 +2706,6 @@ video {
 
   }
 
->>>>>>> b5b2857 (first commit)
   /* make QA responsive  */
   .QA {
     flex-direction: column;
@@ -2744,15 +2726,12 @@ video {
     margin-top: 130px !important;
   }
 
-<<<<<<< HEAD
-=======
   #dropdown-class a {
     position: relative;
     left: 12px;
     top: -4px
   }
 
->>>>>>> b5b2857 (first commit)
 }
 
 .social-links {
@@ -2765,13 +2744,9 @@ video {
 
 }
 
-<<<<<<< HEAD
-/* make a business partner section  */
-=======
 
 /* make a business partner section  */
 /* 
->>>>>>> b5b2857 (first commit)
 .business-partner {
   margin-top: -200px;
 }
@@ -2798,11 +2773,7 @@ video {
 }
 
 /* make a second partner  */
-<<<<<<< HEAD
-.SUNLIGHT-INFRA {
-=======
 /* .SUNLIGHT-INFRA {
->>>>>>> b5b2857 (first commit)
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2815,17 +2786,10 @@ video {
 
 .SUNLIGHT-right h5 {
   color: #f1b20b;
-<<<<<<< HEAD
-}
-
-/* make a thired partner  */
-.MAXBO-SOLAR-ENERGY {
-=======
 } */
 
 /* make a thired partner  */
 /* .MAXBO-SOLAR-ENERGY {
->>>>>>> b5b2857 (first commit)
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2839,18 +2803,11 @@ video {
 
 .MAXBO-SOLAR-ENERGY-right h5 {
   color: #f1b20b;
-<<<<<<< HEAD
-}
-
-/* make a fourt partner  */
-.COSMIC-PV-POWER-PRIVATE-LIMITED {
-=======
 } */
 
 /* make a fourt partner  */
 
 /* .COSMIC-PV-POWER-PRIVATE-LIMITED {
->>>>>>> b5b2857 (first commit)
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -2863,8 +2820,6 @@ video {
 
 .COSMIC-PV-POWER-PRIVATE-LIMITED-right h5 {
   color: #f1b20b;
-<<<<<<< HEAD
-=======
 }  */
 
 /* business partner new section  */
@@ -2987,7 +2942,6 @@ video {
     flex-direction: column;
     display: flex;
   }
->>>>>>> b5b2857 (first commit)
 }
 
 /* make a Quality-Assurance section in pmc  */
@@ -3014,13 +2968,9 @@ video {
 }
 
 /* tab responsive work  */
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-=======
 
 @media only screen and (max-width: 767px) {
 
->>>>>>> b5b2857 (first commit)
   .business-partner {
     padding-top: 100px;
   }
@@ -3029,8 +2979,6 @@ video {
     margin-top: 50px;
   }
 
-<<<<<<< HEAD
-=======
   .padding-less {
     margin: 22px !important;
     position: relative !important;
@@ -3264,7 +3212,6 @@ video {
     text-align: justify
   };
 
->>>>>>> b5b2857 (first commit)
 }
 
 @media only screen and (max-width: 820px) {
@@ -3272,8 +3219,6 @@ video {
   .business-partner {
     padding-top: 100px;
   }
-<<<<<<< HEAD
-=======
 
 
 }
@@ -3314,7 +3259,6 @@ ul {
   .image-list {
     margin-top: 20px;
   }
->>>>>>> b5b2857 (first commit)
 }
 
 @media only screen and(max-width:1024) {
@@ -3383,9 +3327,6 @@ ul {
     width: 80px;
     z-index: 10;
   }
-<<<<<<< HEAD
-
-=======
 }
 
 .padding-less {
@@ -4276,5 +4217,4 @@ td {
 
 .position--set p {
   margin: 12px;
->>>>>>> b5b2857 (first commit)
 }

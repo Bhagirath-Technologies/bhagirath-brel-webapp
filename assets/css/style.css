@@ -3740,6 +3740,27 @@ ul {
   }
 }
 
+.position--set h2{
+  text-align: center;
+}
+.position--set p {
+  text-align: justify;
+}
+.card-elements h3{
+  text-align: center;
+}
+.content-element{
+  text-align: justify;
+}
+
+.content-list p{
+  text-align: justify;
+}
+
+.content-list h2{
+  font-size: 30px;
+}
+
 
 .container-cards {
   margin-top: 123px;

@@ -3146,7 +3146,8 @@ video {
 
   .table-list {
     position: relative !important;
-    right: 136px;
+    right: 156px;
+    margin: 23px;;
   }
 
   .detail-table P {
@@ -3788,6 +3789,9 @@ ul {
    }
    .skyback-color{
     height: 83vh !important;
+   }
+   .darkgreen{
+    height: 220vh !important;
    }
 }
 

@@ -3170,7 +3170,7 @@ video {
   }
 
   .color-trial {
-    height: 145vh !important;
+    height: 1vh !important;
   }
 
   .resco-text h3 {
@@ -4153,7 +4153,7 @@ td {
 
 .color-trial {
   background-color: var(--blue-fade--);
-  height: 140vh;
+  height: 160vh;
 }
 
 

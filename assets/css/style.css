@@ -3117,6 +3117,7 @@ video {
     text-align: justify;
   }
 
+
   .color-trial {
     height: 139vh !important;
   }
@@ -3526,6 +3527,7 @@ ul {
     right: 112px;
   }
 
+  
   .detail-table p {
     position: relative !important;
     right: 111px;
@@ -4102,6 +4104,8 @@ td {
   position: relative;
   top: 62px;
   left: 153px;
+  line-height: 21px;
+  
 }
 
 .color-feet {

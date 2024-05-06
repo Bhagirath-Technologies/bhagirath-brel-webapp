@@ -3188,6 +3188,7 @@ video {
   }
   .heading-panel h4 {
     line-height:35px;
+    margin-top: 45px;
   }
 
 }
@@ -3813,7 +3814,7 @@ ul {
   }
 
   .blue-fade {
-    height: 141vh !important;
+    height: 143vh !important;
   }
 
   .skyback-color {

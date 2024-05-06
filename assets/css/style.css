@@ -1988,11 +1988,12 @@ video {
   margin-bottom: 122px;
 }
 
-#contact .php-email-form {
+ .gformContactUs {
   border: 1px solid #8a8a8a;
   box-shadow: 0px 0px 5px #646464;
   padding: 30px;
   background: #fff;
+  margin-top: 20px;
 }
 
 #contact .php-email-form .error-message {

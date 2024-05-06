@@ -85,6 +85,56 @@
     </div>
     </div>
   </section>
+
+<!-- new contact form by pradhumn  -->
+<div class="container section-bg">
+  <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
+  <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
+  <div class="contact-form">
+      <form class="gformContactUs px-4 py-4" id="contact_form" name="contact_form" action="https://script.google.com/a/macros/bhagirathtechnologies.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec" method="post">
+          <div class="form-elements row">
+              <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                  <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="city" id="city" placeholder="City" required>
+              </div>
+                            <div class="col-md-6 mb-3">
+                  <input type="tel" class="form-control" id="ccontactno" placeholder="phone" name="MobileNo"  required>
+                  <!-- <small>Format: 123-456-7890</small> -->
+              </div>
+              <div class="col-md-12 mb-3">
+                <select class="form-control" id="cmessageType" name="MessageType" required>
+                    <option value="">Subject of Message</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Website Feedback">Website Feedback</option>
+                    <option value="Media">Media</option>
+                    <option value="Investors">Investors</option>
+                    <option value="Careers">Careers</option>
+                </select>
+            </div>
+
+
+              <div class="col-md-12 mb-3">
+                  <textarea class="form-control" rows="3" id="cmessage" placeholder="Message" name="Message" required></textarea>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <!-- reCAPTCHA goes here -->
+              </div>
+              <div class="col-md-12 mb-3 text-right">
+                  <button type="submit" id="btnContactUsSubmit" class="btn btn-primary">Submit</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>
+
+
+
+<!-- 
   <section id="contact" class="section-bg mt-5 ">
     <div class="container" data-aos="fade-up">
       <div class="form">
@@ -118,7 +168,7 @@
 
     </div>
     </div>
-  </section>
+  </section> -->
   <!-- End Contact Section -->
   </main><!-- End #main -->
   <!-- footer -->
@@ -147,6 +197,16 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Include Bootstrap JS -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <!-- Include jQuery -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <!-- AJAX Form Submission -->
+  <script data-cfasync="false" src="./assets/js/contactus-formsubmit-handler.js"></script>
+  <!-- <script src="appscript.js"></script> -->
+  <!-- <script src="script.js"></script> -->
+
   <script>
     AOS.init({
       duration: 1000,

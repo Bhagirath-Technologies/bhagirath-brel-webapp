@@ -82,9 +82,9 @@
         var encoded = Object.keys(data).map(function(k) {
             return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
         }).join('&');
-        alert('one.');
+        // alert('one.');
         xhr.send(encoded);
-        alert('two.');
+        // alert('two.');
     }
     function loaded() {
         // bind to the submit event of our form

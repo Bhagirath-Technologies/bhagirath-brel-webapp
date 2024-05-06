@@ -3033,7 +3033,7 @@ video {
     line-height: 19px !important;
     margin: 10px !important;
     position: relative;
-    top: 33px;
+    top: 55px;
   }
 
   .skyback-color {
@@ -3182,6 +3182,12 @@ video {
   }
   .card-content p {
     margin: 12px;
+  }
+  .table-content-center h4{
+    line-height: 45px;
+  }
+  .heading-panel h4 {
+    line-height:35px;
   }
 
 }

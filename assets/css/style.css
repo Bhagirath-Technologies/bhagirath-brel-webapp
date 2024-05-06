@@ -3553,12 +3553,14 @@ ul {
   .color-trial-second {
     height: 119vh !important;
   }
+
   .heading-panel h4 {
     text-align: center;
     margin-top: 44px;
   }
-  #select-box-content img{
-   margin-top: 25px;
+
+  #select-box-content img {
+    margin-top: 25px;
   }
 
 }
@@ -3711,27 +3713,34 @@ ul {
   .content-section h6 {
     margin-top: 33px;
   }
-.box{
-  height: 53vh !important;
-}
-.box-statement{
-  height: 53vh !important;
-}
-.color-trial-second {
-  height: 94vh !important;
-}
-.container_brcf{
-  flex-direction: column !important;
-}
-.blue-fade{
-  height: 65vh !important;
-}
-.skyback-color{
-  height: 35vh !important;
-}
-.color-trial{
-  height: 74vh !important;
-}
+
+  .box {
+    height: 53vh !important;
+  }
+
+  .box-statement {
+    height: 53vh !important;
+  }
+
+  .color-trial-second {
+    height: 94vh !important;
+  }
+
+  .container_brcf {
+    flex-direction: column !important;
+  }
+
+  .blue-fade {
+    height: 65vh !important;
+  }
+
+  .skyback-color {
+    height: 35vh !important;
+  }
+
+  .color-trial {
+    height: 74vh !important;
+  }
 }
 
 
@@ -3837,33 +3846,41 @@ ul {
 
 @media (min-width: 912px) and (max-width: 1200px) {
   .blue-fade {
-      height: 60vh !important;
+    height: 60vh !important;
   }
+
   .skyback-color {
     height: 33vh !important;
   }
-  .darkgreen{
+
+  .darkgreen {
     height: 64vh !important;
   }
-   .color-trial {
+
+  .color-trial {
     height: 64vh !important;
-   }
-   .heading-panel h4 {
+  }
+
+  .heading-panel h4 {
     margin-top: 33px;
     text-align: center;
-   }
-   .color-trial-second{
+  }
+
+  .color-trial-second {
     height: 70vh !important;
-   }
-   .box-statement{
-    height:36vh !important;
-   }
-   .box{
+  }
+
+  .box-statement {
     height: 36vh !important;
-   }
-   .pink-color-set {
+  }
+
+  .box {
+    height: 36vh !important;
+  }
+
+  .pink-color-set {
     height: 38vh !important;
-   }
+  }
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {
@@ -4001,7 +4018,7 @@ td {
 
 .blue-fade {
   background-color: var(--blue-fade--);
-  height: 104vh;
+  height: 114vh;
 }
 
 .heading-text h4 {
@@ -4214,7 +4231,7 @@ td {
 
 .color-trial {
   background-color: var(--blue-fade--);
-  height: 126vh;
+  height: 143vh;
 }
 
 

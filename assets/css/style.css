@@ -3167,28 +3167,34 @@ video {
     text-align: justify
   }
 
-  .background-style-second{
+  .background-style-second {
     height: 145vh !important;
   }
-  .dropdown-toggle::after{
+
+  .dropdown-toggle::after {
     position: relative !important;
     right: 197px !important;
-  
+
   }
-  .image-margin img{
-      margin-top: 32px;
+
+  .image-margin img {
+    margin-top: 32px;
   }
+
   #set-support {
-    margin-top:15px !important;
+    margin-top: 15px !important;
   }
+
   .card-content p {
     margin: 12px;
   }
-  .table-content-center h4{
+
+  .table-content-center h4 {
     line-height: 45px;
   }
+
   .heading-panel h4 {
-    line-height:35px;
+    line-height: 35px;
     margin-top: 45px;
   }
 
@@ -3452,7 +3458,7 @@ ul {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 819px) {
   .container_brcf {
     flex-direction: column;
   }
@@ -3478,9 +3484,10 @@ ul {
     height: 46rem !important;
   }
 
-  .background-style-second{
+  .background-style-second {
     height: 103vh !important;
   }
+
   .blue-fade {
     height: 139vh !important;
   }
@@ -3527,7 +3534,7 @@ ul {
     right: 112px;
   }
 
-  
+
   .detail-table p {
     position: relative !important;
     right: 111px;
@@ -3545,6 +3552,13 @@ ul {
 
   .color-trial-second {
     height: 119vh !important;
+  }
+  .heading-panel h4 {
+    text-align: center;
+    margin-top: 44px;
+  }
+  #select-box-content img{
+   margin-top: 25px;
   }
 
 }
@@ -3588,7 +3602,7 @@ ul {
   width: 100%;
 }
 
-@media only screen and (min-width: 820px) and (max-width: 1180px) {
+@media only screen and (min-width: 820px) and (max-width:921px) {
   .power-plant p {
     line-height: 22px;
   }
@@ -3697,7 +3711,30 @@ ul {
   .content-section h6 {
     margin-top: 33px;
   }
+.box{
+  height: 53vh !important;
 }
+.box-statement{
+  height: 53vh !important;
+}
+.color-trial-second {
+  height: 94vh !important;
+}
+.container_brcf{
+  flex-direction: column !important;
+}
+.blue-fade{
+  height: 65vh !important;
+}
+.skyback-color{
+  height: 35vh !important;
+}
+.color-trial{
+  height: 74vh !important;
+}
+}
+
+
 
 .content-section h6 {
   font-weight: bold;
@@ -3798,6 +3835,36 @@ ul {
 
 }
 
+@media (min-width: 912px) and (max-width: 1200px) {
+  .blue-fade {
+      height: 60vh !important;
+  }
+  .skyback-color {
+    height: 33vh !important;
+  }
+  .darkgreen{
+    height: 64vh !important;
+  }
+   .color-trial {
+    height: 64vh !important;
+   }
+   .heading-panel h4 {
+    margin-top: 33px;
+    text-align: center;
+   }
+   .color-trial-second{
+    height: 70vh !important;
+   }
+   .box-statement{
+    height:36vh !important;
+   }
+   .box{
+    height: 36vh !important;
+   }
+   .pink-color-set {
+    height: 38vh !important;
+   }
+}
 
 @media only screen and (min-width:320px) and (max-width:768px) {
 
@@ -3826,10 +3893,11 @@ ul {
   .darkgreen {
     height: 220vh !important;
   }
-  .dropdown-toggle::after{
+
+  .dropdown-toggle::after {
     position: relative;
     right: 222px;
-    
+
   }
 }
 
@@ -3855,6 +3923,7 @@ ul {
 .card-content p {
   text-align: justify;
   font-size: 11px;
+  margin: 15px;
 }
 
 @media screen and (max-width: 480px) {
@@ -3869,7 +3938,7 @@ ul {
   height: 40rem;
 }
 
-.background-style-second{
+.background-style-second {
   background: var(--pink-color--);
   height: 40rem;
 }
@@ -3932,7 +4001,7 @@ td {
 
 .blue-fade {
   background-color: var(--blue-fade--);
-  height: 135vh;
+  height: 104vh;
 }
 
 .heading-text h4 {
@@ -4104,7 +4173,7 @@ td {
   position: relative;
   top: 62px;
   left: 153px;
-  
+
 }
 
 .color-feet {
@@ -4145,7 +4214,7 @@ td {
 
 .color-trial {
   background-color: var(--blue-fade--);
-  height: 160vh;
+  height: 126vh;
 }
 
 
@@ -4283,24 +4352,27 @@ td {
   margin: 12px;
 }
 
-.heading-view h4{
- font-size: 19px;
- margin-top: 55px;
- font-weight: bold;
+.heading-view h4 {
+  font-size: 19px;
+  margin-top: 55px;
+  font-weight: bold;
 }
+
 .heading-view p {
   font-size: 14px;
 
 }
 
-.heading-panel h4{
- font-size: 32px;
- font-weight: bold;
+.heading-panel h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
 }
+
 .heading-panel p {
   font-size: 14px;
 }
 
-.current-heading p{
- text-align: justify;
+.current-heading p {
+  text-align: justify;
 }

@@ -3180,6 +3180,9 @@ video {
   #set-support {
     margin-top:15px !important;
   }
+  .card-content p {
+    margin: 12px;
+  }
 
 }
 

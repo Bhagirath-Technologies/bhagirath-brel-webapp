@@ -3096,7 +3096,6 @@ video {
     position: relative !important;
     right: 156px;
     margin: 23px;
-    ;
   }
 
   .detail-table P {
@@ -3174,6 +3173,12 @@ video {
     position: relative !important;
     right: 197px !important;
   
+  }
+  .image-margin img{
+      margin-top: 32px;
+  }
+  #set-support {
+    margin-top:15px !important;
   }
 
 }

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="./assets/img/icons/Brel_Logo.webp">
+  <link rel="icon" type="image/png" href="./assets/img/icons/Brel_Logo.webp">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -17,12 +17,14 @@
   <script src="./assets/js/main.js"></script>
 
 
+
+
 </head>
 
 <body>
   <!-- header -->
   <div class="headerdiv"></div>
-  
+
   <section class="flex-column d-block ">
     <div class="hero_img bg_img2">
       <h2 class="breadcrums_title ms-4">Contact Us</h2>
@@ -37,7 +39,7 @@
       </div>
     </div>
   </section>
- 
+
   <section>
     <div class="text_content test-up mt-5">
       <h3 class="text-center mt-5 heading_section">Contact Us</h3>
@@ -86,55 +88,56 @@
     </div>
   </section>
 
-<!-- new contact form by pradhumn  -->
-<div class="container section-bg">
-  <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
-  <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
-  <div class="contact-form">
-      <form class="gformContactUs px-4 py-4" id="contact_form" name="contact_form" action="https://script.google.com/a/macros/bhagirathtechnologies.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec" method="post">
-          <div class="form-elements row">
-              <div class="col-md-6 mb-3">
-                  <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
-              </div>
-              <div class="col-md-6 mb-3">
-                  <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="text" class="form-control" name="city" id="city" placeholder="City" required>
-              </div>
-                            <div class="col-md-6 mb-3">
-                  <input type="tel" class="form-control" id="ccontactno" placeholder="phone" name="MobileNo"  required>
-                  <!-- <small>Format: 123-456-7890</small> -->
-              </div>
-              <div class="col-md-12 mb-3">
-                <select class="form-control" id="cmessageType" name="MessageType" required>
-                    <option value="">Subject of Message</option>
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Website Feedback">Website Feedback</option>
-                    <option value="Media">Media</option>
-                    <option value="Investors">Investors</option>
-                    <option value="Careers">Careers</option>
-                </select>
-            </div>
-
-
-              <div class="col-md-12 mb-3">
-                  <textarea class="form-control" rows="3" id="cmessage" placeholder="Message" name="Message" required></textarea>
-              </div>
-              <div class="col-md-4 mb-3">
-                  <!-- reCAPTCHA goes here -->
-              </div>
-              <div class="col-md-12 mb-3 text-right">
-                  <button type="submit" id="btnContactUsSubmit" class="btn btn-primary">Submit</button>
-              </div>
+  <!-- new contact form by pradhumn  -->
+  <div class="container section-bg">
+    <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
+    <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
+    <div class="contact-form">
+      <form class="gformContactUs" id="contactForm"
+        action="https://script.google.com/macros/s/AKfycbxsAXmvuDOT5c3dTaDuDXzA8Vtegdb0LvcLzKvx4IEYCZ45WuCl5va2tuZXceKA-_2W/exec"
+        method="post" name="contact-form">
+        <div class="form-elements row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
           </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" name="City" id="ccity" placeholder="City" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="tel" class="form-control" id="ccontactno" placeholder="phone" name="MobileNo" required>
+            <!-- <small>Format: 123-456-7890</small> -->
+          </div>
+          <div class="col-md-12 mb-3">
+            <select class="form-control" name="MessageType" id="cmessageType" required>
+              <option value="">Subject of Message</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Website Feedback">Website Feedback</option>
+              <option value="Media">Media</option>
+              <option value="Investors">Investors</option>
+              <option value="Careers">Careers</option>
+            </select>
+          </div>
+
+
+          <div class="col-md-12 mb-3">
+            <textarea class="form-control" id="cmessage" name="Message" rows="5" placeholder="Message"
+              required></textarea>
+          </div>
+          <div class="col-md-4 mb-3">
+            <!-- reCAPTCHA goes here -->
+          </div>
+          <div class="col-md-12 mb-3 text-right">
+            <button class="btn btn-primary mt-5" id="submit">submit</button>
+          </div>
+        </div>
       </form>
+    </div>
   </div>
-</div>
 
-
-
-<!-- 
+  <!-- 
   <section id="contact" class="section-bg mt-5 ">
     <div class="container" data-aos="fade-up">
       <div class="form">
@@ -176,7 +179,7 @@
   <!-- footer -->
 
   <div id="whatsapp">
-    <a href="https://api.whatsapp.com/send?phone=+91 98250 66759_number&text=learn" target="_blank" id="toggle1"
+    <a href=" https://api.whatsapp.com/send?phone=+91 98250 66759_number&text=learn" target="_blank" id="toggle1"
       class="wtsapp">
       <i class="bi bi-whatsapp"></i>
     </a>
@@ -184,6 +187,8 @@
   <div id="progress">
     <span id="progress-value">&#8593;</span>
   </div>
+
+  <script data-cfasync="false" src="./assets/js/contactus-formsubmit-handler.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -197,13 +202,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <!-- Include Bootstrap JS -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
   <!-- Include jQuery -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <!-- AJAX Form Submission -->
-  <script data-cfasync="false" src="./assets/js/contactus-formsubmit-handler.js"></script>
   <!-- <script src="appscript.js"></script> -->
   <!-- <script src="script.js"></script> -->
 
@@ -218,6 +223,26 @@
 
     });
   </script>
+
+
+
+  <!-- <script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbxsAXmvuDOT5c3dTaDuDXzA8Vtegdb0LvcLzKvx4IEYCZ45WuCl5va2tuZXceKA-_2W/exec'
+  
+ const form = document.forms['contact-form']
+  
+   form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thank you! your form is submitted successfully." ))
+    .then(() => { window.location.reload(); })
+     .catch(error => console.error('Error!', error.message))
+   })
+
+  
+  
+  </script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

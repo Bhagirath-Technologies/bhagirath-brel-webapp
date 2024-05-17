@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="./assets/img/icons/Brel_Logo.webp">
+  <link rel="icon" type="image/png" href="./assets/img/icons/Brel_Logo.webp">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -17,6 +17,14 @@
   <script src="./assets/js/main.js"></script>
   
   
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 38a3e4522ca4f2bfe49595006e5463600362248d
+>>>>>>> 9d4a50b86ff4b1a6755e990a3203c6ed79732aa3
 
 
 </head>
@@ -24,7 +32,7 @@
 <body>
   <!-- header -->
   <div class="headerdiv"></div>
-  
+
   <section class="flex-column d-block ">
     <div class="hero_img bg_img2">
       <h2 class="breadcrums_title ms-4">Contact Us</h2>
@@ -39,7 +47,7 @@
       </div>
     </div>
   </section>
- 
+
   <section>
     <div class="text_content test-up mt-5">
       <h3 class="text-center mt-5 heading_section">Contact Us</h3>
@@ -87,13 +95,28 @@
     </div>
     </div>
   </section>
-
+  <!-- new contact form by pradhumn  -->
+  <div class="container section-bg">
+    <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
+    <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
+    <div class="contact-form">
+      <form class="gformContactUs" id="contactForm"
+        action="https://script.google.com/macros/s/AKfycbxsAXmvuDOT5c3dTaDuDXzA8Vtegdb0LvcLzKvx4IEYCZ45WuCl5va2tuZXceKA-_2W/exec"
+        method="post" name="contact-form">
+        <div class="form-elements row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
+=======
 <!-- new contact form by pradhumn  -->
 <div class="container section-bg">
   <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
   <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
   <div class="contact-form">
+<<<<<<< HEAD
     <form class="gformContactUs" id="contactForm"action="https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec"action="https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec"action="https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec" action="https://script.google.com/macros/s/AKfycbz3wV0yDpF1Rhwmp2k3a2BzPOy6aTrpzeEv30dFgpHdZ8OnrXJQroO5mcI-2GZCgIBa8w/exec" method="post" name="contact-form">
+=======
+    <form class="gformContactUs" id="contactForm" action="https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec" method="post" name="contact-form">
+>>>>>>> 9d4a50b86ff4b1a6755e990a3203c6ed79732aa3
           <div class="form-elements row">
               <div class="col-md-6 mb-3">
                   <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
@@ -121,7 +144,7 @@
 
 
               <div class="col-md-12 mb-3">
-                  <textarea class="form-control" rows="3" id="cmessage" placeholder="Message" name="Message" required></textarea>
+                  <textarea class="form-control" rows="3" id="cmessage" placeholder="Message" required></textarea>
               </div>
               <div class="col-md-4 mb-3">
                   <!-- reCAPTCHA goes here -->
@@ -130,7 +153,41 @@
                 <button class="btn btn-primary mt-5"  id="submit">submit</button>
               </div>
           </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" name="City" id="ccity" placeholder="City" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="tel" class="form-control" id="ccontactno" placeholder="phone" name="MobileNo" required>
+            <!-- <small>Format: 123-456-7890</small> -->
+          </div>
+          <div class="col-md-12 mb-3">
+            <select class="form-control" name="MessageType" id="cmessageType" required>
+              <option value="">Subject of Message</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Website Feedback">Website Feedback</option>
+              <option value="Media">Media</option>
+              <option value="Investors">Investors</option>
+              <option value="Careers">Careers</option>
+            </select>
+          </div>
+
+
+          <div class="col-md-12 mb-3">
+            <textarea class="form-control" id="cmessage" name="Message" rows="5" placeholder="Message"
+              required></textarea>
+          </div>
+          <div class="col-md-4 mb-3">
+            <!-- reCAPTCHA goes here -->
+          </div>
+          <div class="col-md-12 mb-3 text-right">
+            <button class="btn btn-primary mt-5" id="submit">submit</button>
+          </div>
+        </div>
       </form>
+    </div>
   </div>
 </div>
 
@@ -206,7 +263,6 @@
   <!-- Include jQuery -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   <!-- AJAX Form Submission -->
-  <script data-cfasync="false" src="./assets/js/contactus-formsubmit-handler.js"></script>
   <!-- <script src="appscript.js"></script> -->
   <!-- <script src="script.js"></script> -->
 
@@ -224,8 +280,23 @@
 
 
 
+<<<<<<< HEAD
 <script>
    const scriptURL = 'https://script.google.com/macros/s/AKfycbwKRhBIhXkXS2Q9uMEvKxwERJjWoLWLhpPuuNgIwfutZitJ3a4OEsbHTAQ_wuVYVjrt/exec'
+=======
+<<<<<<< HEAD
+<!-- <script>
+   const scriptURL = 'https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec'
+=======
+
+  <!-- <script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbxsAXmvuDOT5c3dTaDuDXzA8Vtegdb0LvcLzKvx4IEYCZ45WuCl5va2tuZXceKA-_2W/exec'
+=======
+<script>
+   const scriptURL = 'https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec'
+
+>>>>>>> 38a3e4522ca4f2bfe49595006e5463600362248d
+>>>>>>> 9d4a50b86ff4b1a6755e990a3203c6ed79732aa3
   
  const form = document.forms['contact-form']
   
@@ -235,10 +306,25 @@
     .then(response => alert("Thank you! your form is submitted successfully." ))
     .then(() => { window.location.reload(); })
      .catch(error => console.error('Error!', error.message))
+<<<<<<< HEAD
    })
 
   
   
+=======
+<<<<<<< HEAD
+   }) -->
+
+  
+  
+=======
+   })
+
+  
+
+  </script> -->
+>>>>>>> 38a3e4522ca4f2bfe49595006e5463600362248d
+>>>>>>> 9d4a50b86ff4b1a6755e990a3203c6ed79732aa3
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="./assets/js/main.js"></script>
+  
+  
 
 
 
@@ -87,7 +89,6 @@
     </div>
     </div>
   </section>
-
   <!-- new contact form by pradhumn  -->
   <div class="container section-bg">
     <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
@@ -99,6 +100,48 @@
         <div class="form-elements row">
           <div class="col-md-6 mb-3">
             <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
+=======
+<!-- new contact form by pradhumn  -->
+<div class="container section-bg">
+  <!-- <h4 class="heading pl-4 mb-4">Write to us BREL</h4> -->
+  <!-- <p class="mt-4 section-paragraph"><b>For any other information, send us an email to <a href="mailto:info">info@brelindia.com</a></b></p> -->
+  <div class="contact-form">
+    <form class="gformContactUs" id="contactForm" action="https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec" method="post" name="contact-form">
+          <div class="form-elements row">
+              <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" id="cname" placeholder="Name" name="Name" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                  <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" name="city" id="city" placeholder="City" required>
+              </div>
+                            <div class="col-md-6 mb-3">
+                  <input type="tel" class="form-control" id="ccontactno" placeholder="phone" name="MobileNo"  required>
+                  <!-- <small>Format: 123-456-7890</small> -->
+              </div>
+              <div class="col-md-12 mb-3">
+                <select class="form-control" name="subject" id="cmessageType" required>
+                    <option value="">Subject of Message</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Website Feedback">Website Feedback</option>
+                    <option value="Media">Media</option>
+                    <option value="Investors">Investors</option>
+                    <option value="Careers">Careers</option>
+                </select>
+            </div>
+
+
+              <div class="col-md-12 mb-3">
+                  <textarea class="form-control" rows="3" id="cmessage" placeholder="Message" required></textarea>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <!-- reCAPTCHA goes here -->
+              </div>
+              <div class="col-md-12 mb-3 text-right">
+                <button class="btn btn-primary mt-5"  id="submit">submit</button>
+              </div>
           </div>
           <div class="col-md-6 mb-3">
             <input type="email" class="form-control" id="cmailid" placeholder="Email" name="Email" required>
@@ -137,7 +180,7 @@
     </div>
   </div>
 
-  <!-- 
+<!-- 
   <section id="contact" class="section-bg mt-5 ">
     <div class="container" data-aos="fade-up">
       <div class="form">
@@ -226,8 +269,13 @@
 
 
 
+
   <!-- <script>
    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsAXmvuDOT5c3dTaDuDXzA8Vtegdb0LvcLzKvx4IEYCZ45WuCl5va2tuZXceKA-_2W/exec'
+=======
+<script>
+   const scriptURL = 'https://script.google.com/a/macros/brelindia.com/s/AKfycbwNPOW0RW0Uu08x0tW45agywENMAAoKyqoCZflxV4Q3GrUb1ImSpYLTsNuQGhizmy8/exec'
+
   
  const form = document.forms['contact-form']
   
@@ -240,8 +288,9 @@
    })
 
   
-  
+
   </script> -->
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
